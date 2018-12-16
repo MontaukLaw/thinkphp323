@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8192edca-7768-476c-8fa8-739e63547de9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ControllerDemo/Application/Home/Controller/UserController.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ControllerDemo/Application/Home/Controller/EmptyController.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/322.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/322.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ControllerDemo/Application/Home/Controller/AnotherController.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/ControllerDemo/Application/Home/Controller/AnotherController.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ControllerDemo/Application/Runtime/Logs/Home/18_12_16.log" beforeDir="false" afterPath="$PROJECT_DIR$/ControllerDemo/Application/Runtime/Logs/Home/18_12_16.log" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,20 +27,20 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="7" />
-          <entry key="PHP" value="19" />
+          <entry key="PHP" value="20" />
           <entry key="htaccess" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PHP" value="876" />
-          <entry key="PLAIN_TEXT" value="6" />
+          <entry key="PHP" value="1019" />
+          <entry key="PLAIN_TEXT" value="12" />
           <entry key="htaccess" value="129" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.new.class">
         <counts>
-          <entry key="PHP Class.type" value="1" />
+          <entry key="PHP Class.type" value="2" />
         </counts>
       </usages-collector>
     </session>
@@ -55,11 +56,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ControllerDemo/Application/Home/Controller/UserController.class.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="378">
               <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ControllerDemo/Application/Home/Controller/EmptyController.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -83,6 +93,7 @@
         <option value="$PROJECT_DIR$/RouteDemo/Application/Common/Conf/config.php" />
         <option value="$PROJECT_DIR$/ControllerDemo/Application/Home/Controller/AnotherController.class.php" />
         <option value="$PROJECT_DIR$/ControllerDemo/Application/Home/Controller/UserController.class.php" />
+        <option value="$PROJECT_DIR$/ControllerDemo/Application/Home/Controller/EmptyController.class.php" />
       </list>
     </option>
   </component>
@@ -190,7 +201,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5765000" />
+    <option name="totallyTimeSpent" value="6145000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1015" extended-state="6" />
@@ -332,6 +343,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ControllerDemo/Application/Home/Controller/EmptyController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
         </state>
       </provider>
     </entry>
