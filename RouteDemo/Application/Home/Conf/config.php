@@ -6,4 +6,5 @@ return array(
         'posts/:id' => 'Index/index',
         'posts/read/:id' => '/posts/:1'),
     'URL_MAP_RULES' => array('site/welcome' => 'Index/getFrom?from=seo'),
+    'URL_CASE_INSENSITIVE' => true
 );
