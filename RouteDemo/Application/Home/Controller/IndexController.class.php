@@ -16,4 +16,9 @@ class IndexController extends Controller
     {
         echo "year: " . $_GET['year'] . ", month: " . $_GET['month'] . ", day: " . $_GET['day'];
     }
+
+    public function getFrom()
+    {
+        echo $_GET['from'];
+    }
 }
