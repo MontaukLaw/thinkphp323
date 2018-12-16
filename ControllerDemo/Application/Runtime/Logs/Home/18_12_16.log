@@ -828,3 +828,12 @@ INFO: [ app_begin ] --START--
 INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000853s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.001249s ]
 
+[ 2018-12-16T22:29:08+08:00 ] ::1 /322/controllerdemo/home/index/getUserByID
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000103s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000748s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001102s ]
+ERR: 非法操作:getuserbyid
+
