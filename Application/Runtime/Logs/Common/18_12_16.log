@@ -16,3 +16,9 @@ INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000100s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000857s ]
 ERR: 无法加载模块:RouteDemo
 
+[ 2018-12-16T11:15:01+08:00 ] ::1 /322/routedemo/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000202s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001425s ]
+ERR: 无法加载模块:RouteDemo
+
