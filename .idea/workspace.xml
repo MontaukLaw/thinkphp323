@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8192edca-7768-476c-8fa8-739e63547de9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ModelDemo/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ModelDemo/Application/Home/Common/JsonMsg.class.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ModelDemo/Application/Home/Model/UserModel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ModelDemo/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ControllerDemo/Application/Runtime/Logs/Home/18_12_16.log" beforeDir="false" afterPath="$PROJECT_DIR$/ControllerDemo/Application/Runtime/Logs/Home/18_12_16.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelDemo/Application/Home/Controller/IndexController.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/ModelDemo/Application/Home/Controller/IndexController.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelDemo/Application/Runtime/Logs/Home/18_12_16.log" beforeDir="false" afterPath="$PROJECT_DIR$/ModelDemo/Application/Runtime/Logs/Home/18_12_16.log" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +31,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PHP" value="1845" />
+          <entry key="PHP" value="2251" />
           <entry key="PLAIN_TEXT" value="19" />
           <entry key="htaccess" value="129" />
         </counts>
@@ -71,7 +67,7 @@
         <entry file="file://$PROJECT_DIR$/ModelDemo/Application/Home/Controller/IndexController.class.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
-              <caret line="30" column="38" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
+              <caret line="51" column="39" selection-start-line="51" selection-start-column="39" selection-end-line="51" selection-end-column="39" />
               <folding>
                 <element signature="e#35#56#0#PHP" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
@@ -249,7 +245,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11050000" />
+    <option name="totallyTimeSpent" value="13137000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1015" extended-state="6" />
@@ -433,7 +429,7 @@
     <entry file="file://$PROJECT_DIR$/ModelDemo/Application/Home/Controller/IndexController.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
-          <caret line="30" column="38" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
+          <caret line="51" column="39" selection-start-line="51" selection-start-column="39" selection-end-line="51" selection-end-column="39" />
           <folding>
             <element signature="e#35#56#0#PHP" expanded="true" />
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />

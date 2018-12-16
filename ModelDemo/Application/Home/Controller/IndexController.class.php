@@ -45,4 +45,58 @@ class IndexController extends Controller
         }
         $this->ajaxReturn($jsonMsg);
     }
+
+    public function listAllUser()
+    {
+        $userM = D('User');
+        //select方法可以返回多条记录, find只能返回一条.
+        $data = $userM->select();
+        $this->returnJson($data);
+    }
+
+    public function getUserByUser()
+    {
+        $condition = array();
+        $uid = (int)(I('post.userid'));
+        // $this->ajaxReturn($uid);
+        if ($uid > 0) {
+            //$temp = "id"=>$uid;
+            //array_push($condition, 'id'=>$uid);
+            $condition['id'] = $uid;
+        } else {
+            //检测输入, 我感觉应该写成before
+            $jsonMsg = new JsonMsg();
+            $jsonMsg->success = false;
+            $jsonMsg->msg = 'PARAM ERROR';
+            $this->ajaxReturn($jsonMsg);
+        }
+
+        //这里遗留一个问题, 如果active人家输入了为0, 而0是有意义的, 就麻烦了
+        $status = (int)(I('post.status'));
+        //if ($status != 0) {
+        //$condition['status'] = $status;
+        //}
+        $condition['status'] = $status;
+        $userM = D('User');
+        //$this->ajaxReturn($uid);
+
+        //select可能返回多条记录吧?
+        $data = $userM->where($condition)->select();
+
+        //结果要分析一下, 这个要复用才行
+        $this->returnJson($data);
+    }
+
+    public function returnJson($data)
+    {
+        $jsonMsg = new JsonMsg();
+        if ($data == null) {
+            $jsonMsg->success = false;
+            $jsonMsg->msg = 'ERROR';
+        } else {
+            $jsonMsg->obj = $data;
+            $jsonMsg->msg = 'OK';
+        }
+        $this->ajaxReturn($jsonMsg);
+    }
 }
