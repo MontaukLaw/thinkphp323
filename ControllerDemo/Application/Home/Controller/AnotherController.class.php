@@ -104,4 +104,5 @@ class AnotherController extends Controller
         $serverInfo = $_SERVER;
         print_r($serverInfo);
     }
+
 }
