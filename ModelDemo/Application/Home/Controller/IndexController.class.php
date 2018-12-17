@@ -5,6 +5,7 @@ namespace Home\Controller;
 use Think\Controller;
 use Home\Common\JsonMsg;
 use Think\Model;
+use Home\Model\UserModel;
 
 
 class IndexController extends Controller
@@ -48,9 +49,11 @@ class IndexController extends Controller
 
     public function listAllUser()
     {
-        $userM = D('User');
+
+        //为了节省数据库及网络开销, 仅取需要的field
+        $userM = new UserModel();
         //select方法可以返回多条记录, find只能返回一条.
-        $data = $userM->select();
+        $data = $userM->getSpecifyField()->select();
         $this->returnJson($data);
     }
 
@@ -98,5 +101,16 @@ class IndexController extends Controller
             $jsonMsg->msg = 'OK';
         }
         $this->ajaxReturn($jsonMsg);
+    }
+
+    public function addUser()
+    {
+        $data = $_POST;
+        $data['create_time'] = time();
+        $data['update_time'] = time();
+
+        $result = M('User')->data($data)->add();
+
+        $this->ajaxReturn($result);
     }
 }

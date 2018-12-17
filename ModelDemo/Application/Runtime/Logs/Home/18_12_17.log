@@ -1,0 +1,149 @@
+[ 2018-12-17T00:24:31+08:00 ] ::1 /322/modeldemo/home/index/listAllUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000749s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001069s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0007s ]
+ERR: Too few arguments to function Think\Model::getField(), 0 passed in C:\wamp64\www\322\ModelDemo\Application\Home\Controller\IndexController.class.php on line 53 and at least 1 expected
+
+[ 2018-12-17T00:25:32+08:00 ] ::1 /322/modeldemo/home/index/listAllUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000670s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001109s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0006s ]
+ERR: Think\Model:getSpecifyField方法不存在！
+
+[ 2018-12-17T00:26:06+08:00 ] ::1 /322/modeldemo/home/index/listAllUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000800s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0008s ]
+ERR: Think\Model:getSpecifyField方法不存在！
+
+[ 2018-12-17T00:27:50+08:00 ] ::1 /322/modeldemo/home/index/listAllUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000670s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001059s ]
+ERR: Class 'Home\Model\UserModel' not found
+
+[ 2018-12-17T00:28:43+08:00 ] ::1 /322/modeldemo/home/index/listAllUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001078s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`nickname` FROM `think_user`  [ RunTime:0.0005s ]
+
+[ 2018-12-17T00:28:58+08:00 ] ::1 /322/modeldemo/home/index/listAllUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000850s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::field() should be compatible with Think\Model::field($field, $except = false) C:\wamp64\www\322\ModelDemo\Application\Home\Model\UserModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0005s ]
+ERR: Think\Model:getSpecifyField方法不存在！
+
+[ 2018-12-17T00:29:13+08:00 ] ::1 /322/modeldemo/home/index/listAllUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000529s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000816s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::field() should be compatible with Think\Model::field($field, $except = false) C:\wamp64\www\322\ModelDemo\Application\Home\Model\UserModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0008s ]
+ERR: Maximum function nesting level of '256' reached, aborting!
+
+[ 2018-12-17T00:29:23+08:00 ] ::1 /322/modeldemo/home/index/listAllUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000102s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000563s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000800s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::field() should be compatible with Think\Model::field($field, $except = false) C:\wamp64\www\322\ModelDemo\Application\Home\Model\UserModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0010s ]
+ERR: Maximum function nesting level of '256' reached, aborting!
+
+[ 2018-12-17T00:29:55+08:00 ] ::1 /322/modeldemo/home/index/listAllUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000938s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`nickname` FROM `think_user`  [ RunTime:0.0002s ]
+
+[ 2018-12-17T08:51:21+08:00 ] ::1 /322/modeldemo/home/index/addUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000688s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000846s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001241s ]
+
+[ 2018-12-17T08:53:11+08:00 ] ::1 /322/modeldemo/home/index/addUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000123s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000707s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001134s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0018s ]
+ERR: 1364:Field 'name' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `think_user` (`status`,`nickname`) VALUES ('0','废柴')
+ERR: 1364:Field 'name' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `think_user` (`status`,`nickname`) VALUES ('0','废柴')
+
+[ 2018-12-17T08:53:44+08:00 ] ::1 /322/modeldemo/home/index/addUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000111s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000699s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001185s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0005s ]
+ERR: 1364:Field 'password' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `think_user` (`status`,`nickname`,`name`) VALUES ('0','废柴','check now')
+ERR: 1364:Field 'password' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `think_user` (`status`,`nickname`,`name`) VALUES ('0','废柴','check now')
+
+[ 2018-12-17T08:54:08+08:00 ] ::1 /322/modeldemo/home/index/addUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000818s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0006s ]
+ERR: 1364:Field 'create_time' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `think_user` (`status`,`nickname`,`name`,`password`) VALUES ('0','废柴','check now','yoyoyo')
+ERR: 1364:Field 'create_time' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `think_user` (`status`,`nickname`,`name`,`password`) VALUES ('0','废柴','check now','yoyoyo')
+
+[ 2018-12-17T08:56:14+08:00 ] ::1 /322/modeldemo/home/index/addUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000682s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001101s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0005s ]
+SQL: INSERT INTO `think_user` (`status`,`nickname`,`name`,`password`,`create_time`,`update_time`) VALUES ('0','废柴','check now','yoyoyo','1545008174','1545008174') [ RunTime:0.0024s ]
+
