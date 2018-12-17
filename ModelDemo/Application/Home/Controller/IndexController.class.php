@@ -136,6 +136,8 @@ class IndexController extends Controller
     {
         $id = I('post.id');
         $data = M('User')->alias('u')->join('INNER JOIN think_user_role ur ON u.user_id=ur.user_id')->join('INNER JOIN think_role r ON ur.role_id=r.role_id')->where('u.user_id=' . $id)->select();
+        //$sql = M('User')->alias('u')->join('INNER JOIN think_user_role ur ON u.user_id=ur.user_id')->join('INNER JOIN think_role r ON ur.role_id=r.role_id')->where('u.user_id=' . $id)->fetchSql()->select();
+
         $this->ajaxReturn($data);
     }
 }
