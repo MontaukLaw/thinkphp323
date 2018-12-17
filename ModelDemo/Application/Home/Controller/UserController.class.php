@@ -11,6 +11,7 @@ namespace Home\Controller;
 use Think\Controller;
 use Home\Model\UserModel;
 
+
 class UserController extends Controller
 {
     public function addUser()
@@ -31,5 +32,6 @@ class UserController extends Controller
         }
         echo 'ok';
     }
+
 
 }

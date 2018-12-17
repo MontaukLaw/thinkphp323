@@ -8,8 +8,17 @@
 
 namespace Home\Model;
 
+use Think\Model\RelationModel;
 
-class ArticleModel
+class ArticleModel extends RelationModel
 {
+    public $_link = array(
+        'author' => array(
+            'mapping_type' => self::BELONGS_TO,
+            'class_name' => 'User',
+            'foreign_key' => 'author_id',
+            'mapping_fields' => 'user_name,user_nickname,user_id'
+        ),
+    );
 
 }

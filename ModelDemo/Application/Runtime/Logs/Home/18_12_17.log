@@ -947,3 +947,502 @@ NOTIC: [8] Undefined index: auto C:\wamp64\www\322\ThinkPHP\Library\Think\Model.
 SQL: INSERT INTO `think_user` (`user_name`,`user_password`,`user_nickname`,`user_status`,`user_create_time`,`user_update_time`) VALUES ('老百姓','d60f5dbe11eddfcc839a3b3075b17b29','昵称','1','1545029232','1545029232') [ RunTime:0.0018s ]
 SQL: SELECT * FROM `think_user` WHERE `user_id` = 22 LIMIT 1   [ RunTime:0.0008s ]
 
+[ 2018-12-17T15:13:02+08:00 ] ::1 /322/modeldemo/home/user/getArticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000681s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001176s ]
+ERR: 非法操作:getArticle
+
+[ 2018-12-17T15:13:18+08:00 ] ::1 /322/modeldemo/home/user/getArticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000674s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001152s ]
+ERR: 非法操作:getArticle
+
+[ 2018-12-17T15:14:22+08:00 ] ::1 /322/modeldemo/home/user/getArticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000894s ]
+ERR: 非法操作:getArticle
+
+[ 2018-12-17T15:16:31+08:00 ] ::1 /322/modeldemo/home/user/getArticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000645s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001105s ]
+ERR: 非法操作:getArticle
+
+[ 2018-12-17T15:16:40+08:00 ] ::1 /322/modeldemo/home/user/getArticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000097s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000669s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000966s ]
+ERR: 非法操作:getArticle
+
+[ 2018-12-17T15:20:38+08:00 ] ::1 /322/modeldemo/home/user/getArticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000687s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001206s ]
+ERR: 非法操作:getArticle
+
+[ 2018-12-17T15:20:44+08:00 ] ::1 /322/modeldemo/home/article/getArticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001781s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0006s ]
+SQL: SELECT Article.article_id AS article_id,Article.article_title AS article_title,Article.article_content AS article_content,Article.article_create_time AS article_create_time FROM think_article Article  [ RunTime:0.0006s ]
+
+[ 2018-12-17T15:20:57+08:00 ] ::1 /322/modeldemo/home/article/getArticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000815s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0005s ]
+SQL: SELECT Article.article_id AS article_id,Article.article_title AS article_title,Article.article_content AS article_content,Article.article_create_time AS article_create_time FROM think_article Article  [ RunTime:0.0002s ]
+
+[ 2018-12-17T15:21:04+08:00 ] ::1 /322/modeldemo/home/article/getArticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000695s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001130s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0019s ]
+SQL: SELECT Article.article_id AS article_id,Article.article_title AS article_title,Article.article_content AS article_content,Article.article_create_time AS article_create_time FROM think_article Article  [ RunTime:0.0003s ]
+
+[ 2018-12-17T15:21:26+08:00 ] ::1 /322/modeldemo/home/article/getArticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000857s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0005s ]
+ERR: 1146:Table 'php.think_author' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_author`
+ERR: 1146:Table 'php.think_author' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_author`
+
+[ 2018-12-17T15:22:00+08:00 ] ::1 /322/modeldemo/home/article/getArticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000127s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000880s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000814s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0005s ]
+ERR: 1146:Table 'php.think_author' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_author`
+ERR: 1146:Table 'php.think_author' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_author`
+
+[ 2018-12-17T15:22:19+08:00 ] ::1 /322/modeldemo/home/article/getArticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000103s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000563s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000857s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0012s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM think_article Article  JOIN think_user User ON Article.author_id=user.autho' at line 1
+ [ SQL语句 ] : SELECT Article.article_id AS article_id,Article.article_title AS article_title,Article.article_content AS article_content,Article.article_create_time AS article_create_time,User.author_id AS author_id,User.author_name AS FROM think_article Article  JOIN think_user User ON Article.author_id=user.author_id 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM think_article Article  JOIN think_user User ON Article.author_id=user.autho' at line 1
+ [ SQL语句 ] : SELECT Article.article_id AS article_id,Article.article_title AS article_title,Article.article_content AS article_content,Article.article_create_time AS article_create_time,User.author_id AS author_id,User.author_name AS FROM think_article Article  JOIN think_user User ON Article.author_id=user.author_id 
+
+[ 2018-12-17T15:22:33+08:00 ] ::1 /322/modeldemo/home/article/getArticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000953s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0004s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM think_article Article  JOIN think_user User ON Article.author_id=user.autho' at line 1
+ [ SQL语句 ] : SELECT Article.article_id AS article_id,Article.article_title AS article_title,Article.article_content AS article_content,Article.article_create_time AS article_create_time,User.author_id AS author_id,User.author_name AS FROM think_article Article  JOIN think_user User ON Article.author_id=user.author_id 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM think_article Article  JOIN think_user User ON Article.author_id=user.autho' at line 1
+ [ SQL语句 ] : SELECT Article.article_id AS article_id,Article.article_title AS article_title,Article.article_content AS article_content,Article.article_create_time AS article_create_time,User.author_id AS author_id,User.author_name AS FROM think_article Article  JOIN think_user User ON Article.author_id=user.author_id 
+
+[ 2018-12-17T15:23:11+08:00 ] ::1 /322/modeldemo/home/article/getArticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000695s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001092s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0007s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM think_article Article  JOIN think_user User ON Article.author_id=user.user_' at line 1
+ [ SQL语句 ] : SELECT Article.article_id AS article_id,Article.article_title AS article_title,Article.article_content AS article_content,Article.article_create_time AS article_create_time,User.author_id AS author_id,User.author_name AS FROM think_article Article  JOIN think_user User ON Article.author_id=user.user_id 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM think_article Article  JOIN think_user User ON Article.author_id=user.user_' at line 1
+ [ SQL语句 ] : SELECT Article.article_id AS article_id,Article.article_title AS article_title,Article.article_content AS article_content,Article.article_create_time AS article_create_time,User.author_id AS author_id,User.author_name AS FROM think_article Article  JOIN think_user User ON Article.author_id=user.user_id 
+
+[ 2018-12-17T15:23:15+08:00 ] ::1 /322/modeldemo/home/article/getArticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001060s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0005s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM think_article Article  JOIN think_user User ON Article.author_id=user.user_' at line 1
+ [ SQL语句 ] : SELECT Article.article_id AS article_id,Article.article_title AS article_title,Article.article_content AS article_content,Article.article_create_time AS article_create_time,User.author_id AS author_id,User.author_name AS FROM think_article Article  JOIN think_user User ON Article.author_id=user.user_id 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM think_article Article  JOIN think_user User ON Article.author_id=user.user_' at line 1
+ [ SQL语句 ] : SELECT Article.article_id AS article_id,Article.article_title AS article_title,Article.article_content AS article_content,Article.article_create_time AS article_create_time,User.author_id AS author_id,User.author_name AS FROM think_article Article  JOIN think_user User ON Article.author_id=user.user_id 
+
+[ 2018-12-17T15:24:17+08:00 ] ::1 /322/modeldemo/home/article/getArticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000869s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0004s ]
+SQL: SELECT Article.article_id AS article_id,Article.article_title AS article_title,Article.article_content AS article_content,Article.article_create_time AS article_create_time,User.user_id AS author_id,User.user_name AS author_name FROM think_article Article  JOIN think_user User ON Article.author_id=user.user_id  [ RunTime:0.0003s ]
+
+[ 2018-12-17T15:32:57+08:00 ] ::1 /322/modeldemo/home/article/getArticleWithAuthor
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000723s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001199s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `think_article` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `think_user` WHERE ( 1=1 AND user_id='' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-12-17T15:33:37+08:00 ] ::1 /322/modeldemo/home/article/getArticleWithAuthor?id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000690s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001195s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `think_article` WHERE `article_id` = 0 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-12-17T15:33:48+08:00 ] ::1 /322/modeldemo/home/article/getArticleWithAuthor?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000872s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `think_article` WHERE `article_id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-12-17T15:34:05+08:00 ] ::1 /322/modeldemo/home/article/getArticleWithAuthor
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000593s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000886s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `think_article` WHERE `article_id` = 0 LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2018-12-17T15:35:17+08:00 ] ::1 /322/modeldemo/home/article/getArticleWithAuthor
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000680s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001121s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `think_article` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `think_user` WHERE ( 1=1 AND user_id='' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-12-17T15:35:26+08:00 ] ::1 /322/modeldemo/home/article/getArticleWithAuthor
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000866s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `think_article` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `think_user` WHERE ( 1=1 AND user_id='' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-12-17T15:36:19+08:00 ] ::1 /322/modeldemo/home/article/getArticleWithAuthor
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000113s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000960s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `think_article` WHERE `article_id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `think_user` WHERE ( 1=1 AND user_id='' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-12-17T15:36:45+08:00 ] ::1 /322/modeldemo/home/article/getArticleWithAuthor
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000834s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `think_article` WHERE `article_id` = 0 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-12-17T15:36:47+08:00 ] ::1 /322/modeldemo/home/article/getArticleWithAuthor
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000772s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `think_article` WHERE `article_id` = 0 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-12-17T15:36:58+08:00 ] ::1 /322/modeldemo/home/article/getArticleWithAuthor
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000529s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000911s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `think_article` WHERE `article_id` = 0 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-12-17T15:36:59+08:00 ] ::1 /322/modeldemo/home/article/getArticleWithAuthor
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000778s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `think_article` WHERE `article_id` = 0 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-12-17T15:37:11+08:00 ] ::1 /322/modeldemo/home/article/getArticleWithAuthor
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000507s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000852s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `think_article` WHERE `article_id` = 0 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-12-17T15:37:29+08:00 ] ::1 /322/modeldemo/home/article/getArticleWithAuthor
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000695s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001154s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `think_article` WHERE `article_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `think_user` WHERE ( 1=1 AND user_id='' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-12-17T15:37:32+08:00 ] ::1 /322/modeldemo/home/article/getArticleWithAuthor
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000579s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000855s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `think_article` WHERE `article_id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_user` WHERE ( 1=1 AND user_id='' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-12-17T15:38:19+08:00 ] ::1 /322/modeldemo/home/article/getArticleWithAuthor
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000712s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001040s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `think_article` WHERE `article_id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `think_user` WHERE ( 1=1 AND user_id='' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-12-17T15:39:17+08:00 ] ::1 /322/modeldemo/home/article/getArticleWithAuthor
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000771s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `think_article` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `think_user` WHERE ( 1=1 AND user_id='' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-12-17T15:47:22+08:00 ] ::1 /322/modeldemo/home/article/getArticleWithAuthor
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001049s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0006s ]
+
+[ 2018-12-17T15:48:45+08:00 ] ::1 /322/modeldemo/home/article/getArticleWithAuthor
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001074s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0005s ]
+
+[ 2018-12-17T15:49:20+08:00 ] ::1 /322/modeldemo/home/article/getArticleWithAuthor
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000129s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000871s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000850s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `think_article` LIMIT 1   [ RunTime:0.0003s ]
+ERR: Undefined class constant 'self::HAS_ONE'
+
+[ 2018-12-17T15:50:57+08:00 ] ::1 /322/modeldemo/home/article/getArticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000726s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001088s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0004s ]
+SQL: SELECT Article.article_id AS article_id,Article.article_title AS article_title,Article.article_content AS article_content,Article.article_create_time AS article_create_time,User.user_id AS author_id,User.user_name AS author_name FROM think_article Article  JOIN think_user User ON Article.author_id=user.user_id  [ RunTime:0.0003s ]
+
+[ 2018-12-17T15:51:09+08:00 ] ::1 /322/modeldemo/home/article/getArticleWithAuthor
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001347s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `think_article` LIMIT 1   [ RunTime:0.0003s ]
+ERR: Undefined class constant 'self::HAS_ONE'
+
+[ 2018-12-17T15:51:45+08:00 ] ::1 /322/modeldemo/home/article/getArticleWithAuthor
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000121s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000825s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001107s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `think_article` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_user` WHERE ( 1=1 AND user_id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-12-17T15:54:55+08:00 ] ::1 /322/modeldemo/home/article/getArticleWithAuthor
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001091s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `think_article` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_user` WHERE ( 1=1 AND user_id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-12-17T15:55:17+08:00 ] ::1 /322/modeldemo/home/article/getArticleWithAuthor
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001126s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `think_article` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `think_user` WHERE ( 1=1 AND user_id='1' ) LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2018-12-17T15:56:59+08:00 ] ::1 /322/modeldemo/home/article/getArticleWithAuthor
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000780s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001146s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `think_article` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0004s ]
+SQL: SELECT `user_name`,`user_nickname`,`user_id` FROM `think_user` WHERE ( 1=1 AND user_id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-12-17T15:58:18+08:00 ] ::1 /322/modeldemo/home/article/getArticleWithAuthor
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000788s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `think_article` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0006s ]
+SQL: SELECT `user_name`,`user_nickname`,`user_id` FROM `think_user` WHERE ( 1=1 AND user_id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-12-17T16:03:39+08:00 ] ::1 /322/modeldemo/home/viewdemo/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000110s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000807s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001198s ]
+ERR: 无法加载控制器:Viewdemo
+
+[ 2018-12-17T16:09:58+08:00 ] ::1 /322/modeldemo/home/article/getArticleWithAuthor
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001138s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `think_article` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0004s ]
+SQL: SELECT `user_name`,`user_nickname`,`user_id` FROM `think_user` WHERE ( 1=1 AND user_id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-12-17T16:38:35+08:00 ] ::1 /322/modeldemo/home/article/getArticleWithAuthor
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000100s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000686s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001162s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `think_article`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0004s ]
+SQL: SELECT `user_name`,`user_nickname`,`user_id` FROM `think_user` WHERE ( 1=1 AND user_id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `user_name`,`user_nickname`,`user_id` FROM `think_user` WHERE ( 1=1 AND user_id='2' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `user_name`,`user_nickname`,`user_id` FROM `think_user` WHERE ( 1=1 AND user_id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+

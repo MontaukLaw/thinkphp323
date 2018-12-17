@@ -32,4 +32,6 @@ class UserModel extends \Think\Model
     {
         return $this->field('id,nickname');
     }
+
+
 }

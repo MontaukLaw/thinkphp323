@@ -10,6 +10,8 @@ namespace Home\Controller;
 
 use Home\Model\Article;
 use Think\Controller;
+use Home\Model\ArticleViewModel;
+use Home\Model\ArticleModel;
 
 class ArticleController extends Controller
 {
@@ -38,6 +40,22 @@ class ArticleController extends Controller
         $article = M('Article');
         $condition['article_title'] = array('like', '%' . I('post.title') . '%');
         $data = $article->where($condition)->page(0, 10)->select();
+        $this->ajaxReturn($data);
+    }
+
+    public function getArticle()
+    {
+        $vm = new ArticleViewModel();
+        $data = $vm->select();
+        $this->ajaxReturn($data);
+    }
+
+    public function getArticleWithAuthor()
+    {
+        $am = new ArticleModel();
+        $param = I('post.id');
+        //$data = $am->relation('author')->fetchSql()->find();
+        $data = $am->relation('author')->select();
         $this->ajaxReturn($data);
     }
 
