@@ -57,6 +57,14 @@ class IndexController extends Controller
         $this->returnJson($data);
     }
 
+    public function listAllUserWithPage()
+    {
+        $userM = M('User');
+        $data = $userM->page(I('post.page'), I('post.rows'))->select();
+        $this->returnJson($data);
+    }
+
+
     public function getUserByUser()
     {
         $condition = array();
@@ -112,5 +120,22 @@ class IndexController extends Controller
         $result = M('User')->data($data)->add();
 
         $this->ajaxReturn($result);
+    }
+
+    public function saveUser()
+    {
+        $data = $_POST;
+        $data['update_time'] = time();
+
+        $result = M('User')->data($data)->save();
+
+        $this->ajaxReturn($result);
+    }
+
+    public function getUserWithRole()
+    {
+        $id = I('post.id');
+        $data = M('User')->alias('u')->join('INNER JOIN think_user_role ur ON u.user_id=ur.user_id')->join('INNER JOIN think_role r ON ur.role_id=r.role_id')->where('u.user_id=' . $id)->select();
+        $this->ajaxReturn($data);
     }
 }
