@@ -770,3 +770,180 @@ INFO: [ app_begin ] --END-- [ RunTime:0.000766s ]
 SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0006s ]
 SQL: SELECT * FROM think_article a INNER JOIN think_user u ON u.user_id=a.author_id  WHERE ( a.author_id=1 ) LIMIT 0,10   [ RunTime:0.0003s ]
 
+[ 2018-12-17T11:31:08+08:00 ] ::1 /322/modeldemo/home/article/searchArticleByTitle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000097s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001059s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0006s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%老百姓% ) LIMIT 0,10' at line 1
+ [ SQL语句 ] : SELECT * FROM `think_article` WHERE ( article_title like %老百姓% ) LIMIT 0,10  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%老百姓% ) LIMIT 0,10' at line 1
+ [ SQL语句 ] : SELECT * FROM `think_article` WHERE ( article_title like %老百姓% ) LIMIT 0,10  
+
+[ 2018-12-17T11:31:47+08:00 ] ::1 /322/modeldemo/home/article/searchArticleByTitle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000835s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0006s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'like ) LIMIT 0,10' at line 1
+ [ SQL语句 ] : SELECT * FROM `think_article` WHERE ( like ) LIMIT 0,10  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'like ) LIMIT 0,10' at line 1
+ [ SQL语句 ] : SELECT * FROM `think_article` WHERE ( like ) LIMIT 0,10  
+
+[ 2018-12-17T11:33:09+08:00 ] ::1 /322/modeldemo/home/article/searchArticleByTitle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000683s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001090s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `think_article` WHERE `article_title` LIKE '%老百姓%' LIMIT 0,10   [ RunTime:0.0009s ]
+
+[ 2018-12-17T11:33:29+08:00 ] ::1 /322/modeldemo/home/article/searchArticleByTitle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000098s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000730s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001161s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `think_article` WHERE `article_title` LIKE '%老百姓%' LIMIT 0,10   [ RunTime:0.0003s ]
+
+[ 2018-12-17T11:54:38+08:00 ] ::1 /322/modeldemo/home/user/addUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000698s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001147s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate C:\wamp64\www\322\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: password C:\wamp64\www\322\ThinkPHP\Library\Think\Model.class.php 第 1303 行.
+
+[ 2018-12-17T11:55:22+08:00 ] ::1 /322/modeldemo/home/user/addUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000672s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001092s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: validate C:\wamp64\www\322\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: password C:\wamp64\www\322\ThinkPHP\Library\Think\Model.class.php 第 1303 行.
+
+[ 2018-12-17T11:55:51+08:00 ] ::1 /322/modeldemo/home/user/addUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000838s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate C:\wamp64\www\322\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: user_repassword C:\wamp64\www\322\ThinkPHP\Library\Think\Model.class.php 第 1284 行.
+
+[ 2018-12-17T11:55:59+08:00 ] ::1 /322/modeldemo/home/user/addUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000840s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: validate C:\wamp64\www\322\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\wamp64\www\322\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000768s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001076s ]
+
+[ 2018-12-17T13:56:07+08:00 ] ::1 /322/modeldemo/home/user/addUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000756s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001164s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0023s ]
+NOTIC: [8] Undefined index: validate C:\wamp64\www\322\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\wamp64\www\322\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1364:Field 'user_nickname' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `think_user` (`user_password`,`user_create_time`) VALUES ('5f4dcc3b5aa765d61d8327deb882cf99','1545026167')
+ERR: 1364:Field 'user_nickname' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `think_user` (`user_password`,`user_create_time`) VALUES ('5f4dcc3b5aa765d61d8327deb882cf99','1545026167')
+
+[ 2018-12-17T13:59:09+08:00 ] ::1 /322/modeldemo/home/user/addUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000687s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000864s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001225s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: validate C:\wamp64\www\322\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\wamp64\www\322\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1364:Field 'user_name' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `think_user` (`user_password`,`user_nickname`,`user_create_time`) VALUES ('cbca3c69648d8d4da3108c78a28f804b','昵称','1545026349')
+ERR: 1364:Field 'user_name' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `think_user` (`user_password`,`user_nickname`,`user_create_time`) VALUES ('cbca3c69648d8d4da3108c78a28f804b','昵称','1545026349')
+
+[ 2018-12-17T13:59:28+08:00 ] ::1 /322/modeldemo/home/user/addUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000110s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000768s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001117s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: validate C:\wamp64\www\322\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\wamp64\www\322\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1364:Field 'user_update_time' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `think_user` (`user_name`,`user_password`,`user_nickname`,`user_create_time`) VALUES ('post.username','cbca3c69648d8d4da3108c78a28f804b','昵称','1545026368')
+ERR: 1364:Field 'user_update_time' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `think_user` (`user_name`,`user_password`,`user_nickname`,`user_create_time`) VALUES ('post.username','cbca3c69648d8d4da3108c78a28f804b','昵称','1545026368')
+
+[ 2018-12-17T14:00:04+08:00 ] ::1 /322/modeldemo/home/user/addUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000591s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000766s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: validate C:\wamp64\www\322\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\wamp64\www\322\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `think_user` (`user_name`,`user_password`,`user_nickname`,`user_create_time`,`user_update_time`) VALUES ('post.username','cbca3c69648d8d4da3108c78a28f804b','昵称','1545026404','1545026404') [ RunTime:0.0023s ]
+SQL: SELECT * FROM `think_user` WHERE `user_id` = 20 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-12-17T14:46:35+08:00 ] ::1 /322/modeldemo/home/user/addUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000672s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001023s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate C:\wamp64\www\322\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\wamp64\www\322\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `think_user` (`user_name`,`user_password`,`user_nickname`,`user_create_time`,`user_update_time`) VALUES ('老百姓','d60f5dbe11eddfcc839a3b3075b17b29','昵称','1545029195','1545029195') [ RunTime:0.0018s ]
+SQL: SELECT * FROM `think_user` WHERE `user_id` = 21 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-12-17T14:47:12+08:00 ] ::1 /322/modeldemo/home/user/addUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000150s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000904s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000784s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate C:\wamp64\www\322\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\wamp64\www\322\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `think_user` (`user_name`,`user_password`,`user_nickname`,`user_status`,`user_create_time`,`user_update_time`) VALUES ('老百姓','d60f5dbe11eddfcc839a3b3075b17b29','昵称','1','1545029232','1545029232') [ RunTime:0.0018s ]
+SQL: SELECT * FROM `think_user` WHERE `user_id` = 22 LIMIT 1   [ RunTime:0.0008s ]
+

@@ -32,4 +32,13 @@ class ArticleController extends Controller
         }
         $this->ajaxReturn($data);
     }
+
+    public function searchArticleByTitle()
+    {
+        $article = M('Article');
+        $condition['article_title'] = array('like', '%' . I('post.title') . '%');
+        $data = $article->where($condition)->page(0, 10)->select();
+        $this->ajaxReturn($data);
+    }
+
 }
