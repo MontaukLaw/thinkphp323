@@ -1,0 +1,18 @@
+[ 2018-12-18T08:07:46+08:00 ] ::1 /322/logdemo/home/
+INFO: INFO-write
+[ 2018-12-18T08:07:46+08:00 ] ::1 /322/logdemo/home/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000875s ]
+ERR: ERR-record
+
+[ 2018-12-18T08:08:06+08:00 ] ::1 /322/logdemo/home/index/writeSession2Client
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+
+[ 2018-12-18T08:09:49+08:00 ] ::1 /322/logdemo/home/index/writeSession2Client
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000704s ]
+
