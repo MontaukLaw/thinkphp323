@@ -17,9 +17,15 @@ class IndexController extends Controller
 
     public function writeSession2Client()
     {
-        session('usid', 'xxxx');
-        cookie('ucid', 'xxxx');
+        session('usid', 'usid_xxxxxx');
+        cookie('ucid', 'ucid_xxxx', 6 * 24 * 3600);
         //echo 'look for the session please';
+        $this->display();
+    }
+
+    public function readSession()
+    {
+        //session('usid');
         $this->display();
     }
 
