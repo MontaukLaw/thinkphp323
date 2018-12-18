@@ -14,10 +14,28 @@ use Think\Controller;
 
 class UserController extends Controller
 {
+    public function login()
+    {
+        $this->display();
+    }
+
+    public function checkLogin()
+    {
+        $data = $this->findUserByUsernameAndPassword();
+        if ($data != null) {
+
+        }
+    }
+
+    public function confirmLogin()
+    {
+       $user
+    }
+
     public function findUserByUsernameAndPassword()
     {
         //$userM = M('User');
-        $userM=new UserModel();
+        $userM = new UserModel();
         $condition = array(
             'user_name' => I('post.username'),
             'user_password' => I('post.password'),
@@ -28,7 +46,7 @@ class UserController extends Controller
         //先测试一下SQL是否work
         //$sql = $userM->field('user_nickname,user_name,user_id')->where($condition)->fetchSql()->select();
         //$this->ajaxReturn($sql);
-
+        //return $data;
         $this->jsonOut($data);
 
     }

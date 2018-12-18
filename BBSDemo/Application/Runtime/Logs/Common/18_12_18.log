@@ -1,0 +1,18 @@
+[ 2018-12-18T15:23:27+08:00 ] ::1 /322/BBSDemo/user/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+ERR: 无法加载模块:User
+
+[ 2018-12-18T15:29:52+08:00 ] ::1 /322/BBSDemo/%C3%A6%C2%AD%C2%A3%C3%A5%C2%9C%C2%A8%C3%A8%C2%B7%C2%B3%C3%A8%C2%BD%C2%AC%C3%A5%C2%88%C2%B0%C3%A7%C2%99%C2%BB%C3%A9%C2%99%C2%86%C3%A9%C2%A1%C2%B5%C3%A9%C2%9D%C2%A2;url=/322/BBSDemo/index.php/home/user/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+ERR: 无法加载模块:æ­£å¨è·³è½¬å°ç»éé¡µé¢;url=
+
+[ 2018-12-18T15:30:03+08:00 ] ::1 /322/BBSDemo/%C3%A6%C2%AD%C2%A3%C3%A5%C2%9C%C2%A8%C3%A8%C2%B7%C2%B3%C3%A8%C2%BD%C2%AC%C3%A5%C2%88%C2%B0%C3%A7%C2%99%C2%BB%C3%A9%C2%99%C2%86%C3%A9%C2%A1%C2%B5%C3%A9%C2%9D%C2%A2;url=/322/BBSDemo/index.php/home/user/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+ERR: 无法加载模块:æ­£å¨è·³è½¬å°ç»éé¡µé¢;url=
+

@@ -1,10 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>$Title$</title>
-</head>
-<body>
-$END$
-</body>
-</html>
+<layout name="common/login_layout"/>
+
+<form id="login_form" class="form-signin">
+    <img class="mb-4" src="https://getbootstrap.com/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
+    <h1 class="h3 mb-3 font-weight-normal" style="text-align: center">请登录</h1>
+    <label for="inputUsername" class="sr-only">用户名</label>
+    <input name="username" type="text" id="inputUsername" class="form-control" placeholder="用户名" required autofocus>
+    <label for="inputPassword" class="sr-only">Password</label>
+    <input name="password" type="password" id="inputPassword" class="form-control" placeholder="密码" required>
+    <div class="checkbox mb-3" style="text-align: center">
+        <label>
+            <input type="checkbox" value="remember-me"> 记住我
+        </label>
+    </div>
+</form>
+<button id="submit_btn" class="btn btn-lg btn-primary btn-block" type="submit">登陆</button>
+<p class="mt-5 mb-3 text-muted" style="text-align: center">简单留言板系统 &copy; 2017-2018</p>
+
+

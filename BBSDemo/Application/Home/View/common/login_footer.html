@@ -6,9 +6,53 @@
 
 
 <script>
+    //搞简单点儿, 直接就是ajax拿接口, 然后写session, 重定向.
     $(document).ready(function () {
-        alert("Hello world!");
+
+        $('#submit_btn').click(function () {
+            //console.info('submit');
+            var username = $('#inputUsername').val();
+            var password = $('#inputPassword').val();
+            var loginCheckUrl = "findUserByUsernameAndPassword";
+            $.post(
+                //loginUrl就是要post要访问的接口地址.
+                loginCheckUrl,
+                //登陆form可以直接序列化
+                $("#login_form").serialize(),
+                function (data) {
+                    console.info(data);
+                    if (data.success == true) {
+                        //登陆成功
+                        //console.info(data.obj[0].user_name);
+                        confirmLogin(data);
+
+                    }
+                }
+            );
+
+            //console.info(username + '' + password);
+        })
+
     });
+
+    function confirmLogin(data) {
+        $.post(
+            'confirmLogin',
+            {user_name: data.obj[0].user_name},
+            {user_id: data.obj[0].user_id},
+            {user_nickname: data.obj[0].user_nickname},
+            function (data) {
+                console.info(data.success);
+                if (data.success == true) {
+                    //写session成功
+
+                    alert(data.obj[0].user_nickname+' 欢迎你回来');
+                    window.location.href="http://shanghepinpai.com";
+
+                }
+            }
+        );
+    }
 </script>
 </body>
 </html>

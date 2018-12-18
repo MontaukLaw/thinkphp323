@@ -13,6 +13,10 @@ class IndexController extends Controller
 
     public function index()
     {
+        $uid = session('userid');
+        if ($uid == null) {
+            $this->error('未登录, 正在跳转到登陆页面',U('User/login'),3);
+        }
         $this->display();
     }
 
