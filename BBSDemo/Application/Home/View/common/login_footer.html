@@ -30,6 +30,14 @@
                 }
             );
 
+            var el = $('input:checkbox[name=remember_me]:checked')
+            //console.info(el.val());
+            if (el.val() == 'true') {
+                console.info('remember me');
+            } else {
+                console.info('forget me');
+            }
+
             //console.info(username + '' + password);
         })
 
@@ -38,17 +46,17 @@
     function confirmLogin(data) {
         $.post(
             'confirmLogin',
-            {user_name: data.obj[0].user_name},
-            {user_id: data.obj[0].user_id},
-            {user_nickname: data.obj[0].user_nickname},
+            //{user_name: data.obj[0].user_name},
+            {
+                user_id: data.obj[0].user_id,
+                user_nickname: data.obj[0].user_nickname
+            },
             function (data) {
                 console.info(data.success);
                 if (data.success == true) {
                     //写session成功
-
-                    alert(data.obj[0].user_nickname+' 欢迎你回来');
-                    window.location.href="http://shanghepinpai.com";
-
+                    alert(data.obj[0].user_nickname + ' 欢迎你回来');
+                    window.location.href = "../index/index";
                 }
             }
         );

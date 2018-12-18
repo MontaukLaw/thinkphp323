@@ -29,7 +29,13 @@ class UserController extends Controller
 
     public function confirmLogin()
     {
-       $user
+        //$username = I('post.username');
+        $userID = I('post.user_id');
+        $nickname=I('post.user_nickname');
+        session('userid',$userID);
+        session('nickname',$nickname);
+        //session('userid',$userID);
+        $this->jsonOut('good');
     }
 
     public function findUserByUsernameAndPassword()

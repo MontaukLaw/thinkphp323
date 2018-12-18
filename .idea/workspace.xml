@@ -2,36 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8192edca-7768-476c-8fa8-739e63547de9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/BBSDemo/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BBSDemo/Application/Common/Conf/config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BBSDemo/Application/Home/Common/JsonMsg.class.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BBSDemo/Application/Home/Conf/config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BBSDemo/Application/Home/Controller/IndexController.class.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BBSDemo/Application/Home/Controller/UserController.class.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BBSDemo/Application/Home/Model/UserModel.class.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BBSDemo/Application/Home/View/common/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BBSDemo/Application/Home/View/common/header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BBSDemo/Application/Home/View/common/layout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BBSDemo/Application/Home/View/common/login_footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BBSDemo/Application/Home/View/common/login_header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BBSDemo/Application/Home/View/common/login_layout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BBSDemo/Application/Home/View/index/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BBSDemo/Application/Home/View/user/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BBSDemo/Application/Runtime/Cache/Home/20914c0f075f91df3579ffbdf5180b02.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BBSDemo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BBSDemo/Application/Runtime/Data/_fields/php.think_user.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BBSDemo/Application/Runtime/Logs/Home/18_12_18.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BBSDemo/Public/Css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BBSDemo/Public/Css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BBSDemo/Public/Css/signin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BBSDemo/Public/Js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BBSDemo/Public/Js/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BBSDemo/Public/Js/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BBSDemo/Public/Js/popper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BBSDemo/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/322.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/322.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BBSDemo/Application/Home/Controller/UserController.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/BBSDemo/Application/Home/Controller/UserController.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BBSDemo/Application/Home/View/common/login_footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/BBSDemo/Application/Home/View/common/login_footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BBSDemo/Application/Home/View/index/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/BBSDemo/Application/Home/View/index/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BBSDemo/Application/Home/View/user/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/BBSDemo/Application/Home/View/user/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BBSDemo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php" beforeDir="false" afterPath="$PROJECT_DIR$/BBSDemo/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BBSDemo/Application/Runtime/Cache/Home/5c9ee6d19cd41add49f97afe3aef0b25.php" beforeDir="false" afterPath="$PROJECT_DIR$/BBSDemo/Application/Runtime/Cache/Home/5c9ee6d19cd41add49f97afe3aef0b25.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BBSDemo/Application/Runtime/Logs/Common/18_12_18.log" beforeDir="false" afterPath="$PROJECT_DIR$/BBSDemo/Application/Runtime/Logs/Common/18_12_18.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BBSDemo/Application/Runtime/Logs/Home/18_12_18.log" beforeDir="false" afterPath="$PROJECT_DIR$/BBSDemo/Application/Runtime/Logs/Home/18_12_18.log" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,10 +31,10 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="2" />
-          <entry key="HTML" value="39" />
+          <entry key="HTML" value="40" />
           <entry key="Image" value="5" />
           <entry key="JavaScript" value="3" />
-          <entry key="PHP" value="38" />
+          <entry key="PHP" value="39" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="SourceMap" value="2" />
           <entry key="htaccess" value="3" />
@@ -64,8 +42,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="936" />
-          <entry key="PHP" value="2072" />
+          <entry key="HTML" value="1277" />
+          <entry key="PHP" value="2208" />
           <entry key="htaccess" value="129" />
         </counts>
       </usages-collector>
@@ -81,8 +59,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BBSDemo/Application/Home/View/user/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="231">
+              <caret line="11" column="82" selection-start-line="11" selection-start-column="82" selection-end-line="11" selection-end-column="82" />
               <folding>
                 <element signature="n#style#0;n#h1#0;n#form#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#form#0;n#!!top" expanded="true" />
@@ -93,11 +71,20 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BBSDemo/Application/Home/View/index/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="5" column="2" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BBSDemo/Application/Home/View/common/login_footer.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="48" column="62" selection-start-line="48" selection-start-column="62" selection-end-line="48" selection-end-column="62" />
+            <state relative-caret-position="470">
+              <caret line="38" column="13" lean-forward="true" selection-start-line="32" selection-start-column="11" selection-end-line="38" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -105,10 +92,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BBSDemo/Application/Home/Controller/UserController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
+            <state relative-caret-position="389">
+              <caret line="35" column="38" lean-forward="true" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
               <folding>
                 <element signature="e#117#141#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BBSDemo/Application/Home/Controller/IndexController.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="15" column="30" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="30" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -161,7 +160,6 @@
         <option value="$PROJECT_DIR$/bbsDemo/Application/Home/Controller/UserController.class.php" />
         <option value="$PROJECT_DIR$/BBSDemo/Application/Home/Controller/LoginController.class.php" />
         <option value="$PROJECT_DIR$/BBSDemo/Application/Home/View/login/index.html" />
-        <option value="$PROJECT_DIR$/BBSDemo/Application/Home/View/index/index.html" />
         <option value="$PROJECT_DIR$/BBSDemo/Application/Home/Controller/IndexController.class.php" />
         <option value="$PROJECT_DIR$/BBSDemo/Application/Home/Conf/config.php" />
         <option value="$PROJECT_DIR$/BBSDemo/Application/Home/View/common/layout.html" />
@@ -169,8 +167,9 @@
         <option value="$PROJECT_DIR$/BBSDemo/Application/Home/View/common/login_header.html" />
         <option value="$PROJECT_DIR$/BBSDemo/Application/Home/View/common/footer.html" />
         <option value="$PROJECT_DIR$/BBSDemo/Application/Home/View/common/login_layout.html" />
-        <option value="$PROJECT_DIR$/BBSDemo/Application/Home/View/user/login.html" />
         <option value="$PROJECT_DIR$/BBSDemo/Application/Home/Controller/UserController.class.php" />
+        <option value="$PROJECT_DIR$/BBSDemo/Application/Home/View/index/index.html" />
+        <option value="$PROJECT_DIR$/BBSDemo/Application/Home/View/user/login.html" />
         <option value="$PROJECT_DIR$/BBSDemo/Application/Home/View/common/login_footer.html" />
       </list>
     </option>
@@ -273,6 +272,24 @@
               <item name="Home" type="462c0819:PsiDirectoryNode" />
               <item name="View" type="462c0819:PsiDirectoryNode" />
               <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="322" type="b2602c69:ProjectViewProjectNode" />
+              <item name="322" type="462c0819:PsiDirectoryNode" />
+              <item name="BBSDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="Application" type="462c0819:PsiDirectoryNode" />
+              <item name="Home" type="462c0819:PsiDirectoryNode" />
+              <item name="View" type="462c0819:PsiDirectoryNode" />
+              <item name="index" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="322" type="b2602c69:ProjectViewProjectNode" />
+              <item name="322" type="462c0819:PsiDirectoryNode" />
+              <item name="BBSDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="Application" type="462c0819:PsiDirectoryNode" />
+              <item name="Home" type="462c0819:PsiDirectoryNode" />
+              <item name="View" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="322" type="b2602c69:ProjectViewProjectNode" />
@@ -396,7 +413,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20151000" />
+    <option name="totallyTimeSpent" value="24023000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1087" y="0" width="1451" height="1047" extended-state="0" />
@@ -585,13 +602,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BBSDemo/Application/Home/View/index/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" selection-start-column="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ViewDemo/Public/Js/main.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -604,16 +614,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BBSDemo/Public/Js/jquery.js">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BBSDemo/Application/Home/Controller/IndexController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BBSDemo/Public/Js/popper.min.js">
       <provider selected="true" editor-type-id="text-editor" />
@@ -683,10 +683,30 @@
     <entry file="file://$PROJECT_DIR$/BBSDemo/Public/Css/signin.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/BBSDemo/Application/Home/Controller/IndexController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="30" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="30" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BBSDemo/Application/Home/Controller/UserController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="35" column="38" lean-forward="true" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
+          <folding>
+            <element signature="e#117#141#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/BBSDemo/Application/Home/View/user/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="231">
+          <caret line="11" column="82" selection-start-line="11" selection-start-column="82" selection-end-line="11" selection-end-column="82" />
           <folding>
             <element signature="n#style#0;n#h1#0;n#form#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#form#0;n#!!top" expanded="true" />
@@ -696,20 +716,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BBSDemo/Application/Home/Controller/UserController.class.php">
+    <entry file="file://$PROJECT_DIR$/BBSDemo/Application/Home/View/index/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
-          <folding>
-            <element signature="e#117#141#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="105">
+          <caret line="5" column="2" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BBSDemo/Application/Home/View/common/login_footer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="48" column="62" selection-start-line="48" selection-start-column="62" selection-end-line="48" selection-end-column="62" />
+        <state relative-caret-position="470">
+          <caret line="38" column="13" lean-forward="true" selection-start-line="32" selection-start-column="11" selection-end-line="38" selection-end-column="13" />
         </state>
       </provider>
     </entry>

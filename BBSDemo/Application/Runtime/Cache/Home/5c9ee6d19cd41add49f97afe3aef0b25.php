@@ -20,7 +20,7 @@
     <input name="password" type="password" id="inputPassword" class="form-control" placeholder="密码" required>
     <div class="checkbox mb-3" style="text-align: center">
         <label>
-            <input type="checkbox" value="remember-me"> 记住我
+            <input name="remember_me" id="remember_me" type="checkbox" value="true"> 记住我
         </label>
     </div>
 </form>
@@ -47,32 +47,48 @@
             var password = $('#inputPassword').val();
             var loginCheckUrl = "findUserByUsernameAndPassword";
             $.post(
+                //loginUrl就是要post要访问的接口地址.
                 loginCheckUrl,
+                //登陆form可以直接序列化
                 $("#login_form").serialize(),
                 function (data) {
                     console.info(data);
                     if (data.success == true) {
                         //登陆成功
-                        console.info(data.obj[0].user_name);
-                        confirmLogin(data.obj[0].user_name);
+                        //console.info(data.obj[0].user_name);
+                        confirmLogin(data);
+
                     }
                 }
             );
+
+            var el = $('input:checkbox[name=remember_me]:checked')
+            //console.info(el.val());
+            if (el.val() == 'true') {
+                console.info('remember me');
+            } else {
+                console.info('forget me');
+            }
 
             //console.info(username + '' + password);
         })
 
     });
 
-    function confirmLogin(username) {
+    function confirmLogin(data) {
         $.post(
             'confirmLogin',
-            {username: username},
+            //{user_name: data.obj[0].user_name},
+            {
+                user_id: data.obj[0].user_id,
+                user_nickname: data.obj[0].user_nickname
+            },
             function (data) {
                 console.info(data.success);
                 if (data.success == true) {
-                    //登陆成功
-
+                    //写session成功
+                    alert(data.obj[0].user_nickname + ' 欢迎你回来');
+                    window.location.href = "../index/index";
                 }
             }
         );

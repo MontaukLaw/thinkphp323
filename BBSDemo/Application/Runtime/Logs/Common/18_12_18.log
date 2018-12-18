@@ -16,3 +16,45 @@ INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
 ERR: 无法加载模块:æ­£å¨è·³è½¬å°ç»éé¡µé¢;url=
 
+[ 2018-12-18T20:25:35+08:00 ] ::1 /322/BBSDemo/Public/js/popper.min.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000613s ]
+ERR: 无法加载模块:Public
+
+[ 2018-12-18T20:28:03+08:00 ] ::1 /322/BBSDemo/Public/js/popper.min.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+ERR: 无法加载模块:Public
+
+[ 2018-12-18T20:29:36+08:00 ] ::1 /322/BBSDemo/Public/js/popper.min.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+ERR: 无法加载模块:Public
+
+[ 2018-12-18T20:32:19+08:00 ] ::1 /322/BBSDemo/Public/js/popper.min.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000116s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+ERR: 无法加载模块:Public
+
+[ 2018-12-18T20:32:47+08:00 ] ::1 /322/BBSDemo/Public/js/popper.min.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+ERR: 无法加载模块:Public
+
+[ 2018-12-18T20:32:58+08:00 ] ::1 /322/BBSDemo/Public/js/popper.min.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+ERR: 无法加载模块:Public
+
+[ 2018-12-18T20:33:21+08:00 ] ::1 /322/BBSDemo/Public/js/popper.min.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+ERR: 无法加载模块:Public
+
