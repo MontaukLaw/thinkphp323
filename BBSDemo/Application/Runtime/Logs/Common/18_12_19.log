@@ -4,3 +4,9 @@ INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
 ERR: 无法加载模块:Public
 
+[ 2018-12-19T14:21:19+08:00 ] 127.0.0.1 /322/BBSDemo/Public/js/popper.min.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000122s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000789s ]
+ERR: 无法加载模块:Public
+

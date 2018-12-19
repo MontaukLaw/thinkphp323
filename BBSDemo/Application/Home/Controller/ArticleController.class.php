@@ -22,4 +22,11 @@ class ArticleController extends UtilController
         //$this->ajaxReturn($data);
         $this->jsonOut($data);
     }
+
+    public function countArticle()
+    {
+        $article = M('Article');
+        $data = $article->count();
+        $this->jsonOut($data);
+    }
 }
