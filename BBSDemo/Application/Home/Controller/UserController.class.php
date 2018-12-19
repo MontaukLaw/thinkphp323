@@ -27,13 +27,24 @@ class UserController extends Controller
         }
     }
 
+    public function getUidSession()
+    {
+        $userID = session('userid');
+        $nickname = session('nickname');
+        $obj = new \stdClass();
+        $obj->user_id = $userID;
+        $obj->user_nickname = $nickname;
+        $this->jsonOut($obj);
+
+    }
+
     public function confirmLogin()
     {
         //$username = I('post.username');
         $userID = I('post.user_id');
-        $nickname=I('post.user_nickname');
-        session('userid',$userID);
-        session('nickname',$nickname);
+        $nickname = I('post.user_nickname');
+        session('userid', $userID);
+        session('nickname', $nickname);
         //session('userid',$userID);
         $this->jsonOut('good');
     }
@@ -43,9 +54,16 @@ class UserController extends Controller
         //$userM = M('User');
         $userM = new UserModel();
         $condition = array(
+            //param
             'user_name' => I('post.username'),
             'user_password' => I('post.password'),
         );
+        //if(IS_AJAX){
+        //$this->ajaxReturn('ajax');
+        //}
+
+        //$this->ajaxReturn($_SERVER['REQUEST_METHOD']);
+        //$this->ajaxReturn($condition);
 
         $data = $userM->field('user_nickname,user_name,user_id')->where($condition)->select();
 
