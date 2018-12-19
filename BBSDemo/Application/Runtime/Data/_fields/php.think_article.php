@@ -1,0 +1,1 @@
+a:7:{i:0;s:10:"article_id";i:1;s:13:"article_title";i:2;s:15:"article_content";i:3;s:19:"article_create_time";i:4;s:9:"author_id";s:3:"_pk";s:10:"article_id";s:5:"_type";a:5:{s:10:"article_id";s:7:"int(11)";s:13:"article_title";s:12:"varchar(255)";s:15:"article_content";s:4:"text";s:19:"article_create_time";s:8:"datetime";s:9:"author_id";s:6:"int(6)";}}

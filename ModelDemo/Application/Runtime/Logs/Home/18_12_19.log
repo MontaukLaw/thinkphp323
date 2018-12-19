@@ -1,0 +1,9 @@
+[ 2018-12-19T09:32:35+08:00 ] ::1 /322/modeldemo/home/user/getArticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000705s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001143s ]
+ERR: 非法操作:getArticle
+
