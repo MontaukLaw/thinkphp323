@@ -1,0 +1,1 @@
+a:5:{i:0;s:7:"post_id";i:1;s:12:"post_content";i:2;s:16:"post_create_time";s:3:"_pk";s:7:"post_id";s:5:"_type";a:3:{s:7:"post_id";s:6:"int(6)";s:12:"post_content";s:12:"varchar(255)";s:16:"post_create_time";s:7:"int(11)";}}

@@ -86,6 +86,11 @@ class UserController extends Controller
             $jsonMsg->msg = 'OK';
         }
         $this->ajaxReturn($jsonMsg);
+    }
 
+    public function addUser(){
+        $User = D("User"); // 实例化User对象
+        $User->create(); // 生成数据对象
+        $User->add(); // 写入数据
     }
 }

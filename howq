@@ -1,0 +1,2480 @@
+[1mdiff --git a/.idea/workspace.xml b/.idea/workspace.xml[m
+[1mindex 75e9a82..fc0f152 100644[m
+[1m--- a/.idea/workspace.xml[m
+[1m+++ b/.idea/workspace.xml[m
+[36m@@ -2,9 +2,6 @@[m
+ <project version="4">[m
+   <component name="ChangeListManager">[m
+     <list default="true" id="8192edca-7768-476c-8fa8-739e63547de9" name="Default Changelist" comment="">[m
+[31m-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />[m
+[31m-      <change beforePath="$PROJECT_DIR$/BBSDemo/Application/Home/Controller/ArticleController.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/BBSDemo/Application/Home/Controller/ArticleController.class.php" afterDir="false" />[m
+[31m-      <change beforePath="$PROJECT_DIR$/BBSDemo/Application/Runtime/Logs/Common/18_12_19.log" beforeDir="false" afterPath="$PROJECT_DIR$/BBSDemo/Application/Runtime/Logs/Common/18_12_19.log" afterDir="false" />[m
+       <change beforePath="$PROJECT_DIR$/BBSDemo/Application/Runtime/Logs/Home/18_12_19.log" beforeDir="false" afterPath="$PROJECT_DIR$/BBSDemo/Application/Runtime/Logs/Home/18_12_19.log" afterDir="false" />[m
+     </list>[m
+     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />[m
+[36m@@ -55,8 +52,8 @@[m
+       <file pinned="false" current-in-tab="true">[m
+         <entry file="file://$PROJECT_DIR$/BBSDemo/Application/Home/Controller/ArticleController.class.php">[m
+           <provider selected="true" editor-type-id="text-editor">[m
+[31m-            <state relative-caret-position="525">[m
+[31m-              <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />[m
+[32m+[m[32m            <state relative-caret-position="420">[m
+[32m+[m[32m              <caret line="25" column="32" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="32" />[m
+             </state>[m
+           </provider>[m
+         </entry>[m
+[36m@@ -385,10 +382,10 @@[m
+     <servers />[m
+   </component>[m
+   <component name="TimeTrackingManager">[m
+[31m-    <option name="totallyTimeSpent" value="32900000" />[m
+[32m+[m[32m    <option name="totallyTimeSpent" value="33631000" />[m
+   </component>[m
+   <component name="ToolWindowManager">[m
+[31m-    <frame x="1030" y="0" width="1451" height="1047" extended-state="0" />[m
+[32m+[m[32m    <frame x="830" y="0" width="1451" height="1047" extended-state="0" />[m
+     <editor active="true" />[m
+     <layout>[m
+       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24655548" />[m
+[36m@@ -633,35 +630,6 @@[m
+         </state>[m
+       </provider>[m
+     </entry>[m
+[31m-    <entry file="file://$PROJECT_DIR$/BBSDemo/Application/Home/Controller/IndexController.class.php">[m
+[31m-      <provider selected="true" editor-type-id="text-editor">[m
+[31m-        <state relative-caret-position="315">[m
+[31m-          <caret line="15" column="30" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="30" />[m
+[31m-          <folding>[m
+[31m-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />[m
+[31m-          </folding>[m
+[31m-        </state>[m
+[31m-      </provider>[m
+[31m-    </entry>[m
+[31m-    <entry file="file://$PROJECT_DIR$/BBSDemo/Application/Home/View/user/login.html">[m
+[31m-      <provider selected="true" editor-type-id="text-editor">[m
+[31m-        <state relative-caret-position="210">[m
+[31m-          <caret line="10" column="15" lean-forward="true" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />[m
+[31m-          <folding>[m
+[31m-            <element signature="n#style#0;n#h1#0;n#form#0;n#!!top" expanded="true" />[m
+[31m-            <element signature="n#style#0;n#div#0;n#form#0;n#!!top" expanded="true" />[m
+[31m-            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />[m
+[31m-          </folding>[m
+[31m-        </state>[m
+[31m-      </provider>[m
+[31m-    </entry>[m
+[31m-    <entry file="file://$PROJECT_DIR$/ThinkPHP/Mode/Api/functions.php">[m
+[31m-      <provider selected="true" editor-type-id="text-editor">[m
+[31m-        <state relative-caret-position="322">[m
+[31m-          <caret line="200" column="14" selection-start-line="200" selection-start-column="14" selection-end-line="200" selection-end-column="14" />[m
+[31m-        </state>[m
+[31m-      </provider>[m
+[31m-    </entry>[m
+     <entry file="file://$PROJECT_DIR$/BBSDemo/Application/Home/Controller/UtilController.class.php">[m
+       <provider selected="true" editor-type-id="text-editor">[m
+         <state relative-caret-position="378">[m
+[36m@@ -713,10 +681,39 @@[m
+         </state>[m
+       </provider>[m
+     </entry>[m
+[32m+[m[32m    <entry file="file://$PROJECT_DIR$/BBSDemo/Application/Home/Controller/IndexController.class.php">[m
+[32m+[m[32m      <provider selected="true" editor-type-id="text-editor">[m
+[32m+[m[32m        <state relative-caret-position="315">[m
+[32m+[m[32m          <caret line="15" column="30" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="30" />[m
+[32m+[m[32m          <folding>[m
+[32m+[m[32m            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />[m
+[32m+[m[32m          </folding>[m
+[32m+[m[32m        </state>[m
+[32m+[m[32m      </provider>[m
+[32m+[m[32m    </entry>[m
+[32m+[m[32m    <entry file="file://$PROJECT_DIR$/BBSDemo/Application/Home/View/user/login.html">[m
+[32m+[m[32m      <provider selected="true" editor-type-id="text-editor">[m
+[32m+[m[32m        <state relative-caret-position="210">[m
+[32m+[m[32m          <caret line="10" column="15" lean-forward="true" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />[m
+[32m+[m[32m          <folding>[m
+[32m+[m[32m            <element signature="n#style#0;n#h1#0;n#form#0;n#!!top" expanded="true" />[m
+[32m+[m[32m            <element signature="n#style#0;n#div#0;n#form#0;n#!!top" expanded="true" />[m
+[32m+[m[32m            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />[m
+[32m+[m[32m          </folding>[m
+[32m+[m[32m        </state>[m
+[32m+[m[32m      </provider>[m
+[32m+[m[32m    </entry>[m
+[32m+[m[32m    <entry file="file://$PROJECT_DIR$/ThinkPHP/Mode/Api/functions.php">[m
+[32m+[m[32m      <provider selected="true" editor-type-id="text-editor">[m
+[32m+[m[32m        <state relative-caret-position="322">[m
+[32m+[m[32m          <caret line="200" column="14" selection-start-line="200" selection-start-column="14" selection-end-line="200" selection-end-column="14" />[m
+[32m+[m[32m        </state>[m
+[32m+[m[32m      </provider>[m
+[32m+[m[32m    </entry>[m
+     <entry file="file://$PROJECT_DIR$/BBSDemo/Application/Home/Controller/ArticleController.class.php">[m
+       <provider selected="true" editor-type-id="text-editor">[m
+[31m-        <state relative-caret-position="525">[m
+[31m-          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />[m
+[32m+[m[32m        <state relative-caret-position="420">[m
+[32m+[m[32m          <caret line="25" column="32" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="32" />[m
+         </state>[m
+       </provider>[m
+     </entry>[m
+[1mdiff --git a/BBSDemo/Application/Runtime/Logs/Home/18_12_19.log b/BBSDemo/Application/Runtime/Logs/Home/18_12_19.log[m
+[1mindex f2fd34f..651145d 100644[m
+[1m--- a/BBSDemo/Application/Runtime/Logs/Home/18_12_19.log[m
+[1m+++ b/BBSDemo/Application/Runtime/Logs/Home/18_12_19.log[m
+[36m@@ -1898,3 +1898,2359 @@[m [mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000839s ][m
+ INFO: [ app_begin ] --END-- [ RunTime:0.001197s ][m
+ SQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.0022s ][m
+ [m
+[32m+[m[32m[ 2018-12-19T15:48:52+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000788s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000775s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001060s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 0,5   [ RunTime:0.0005s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T15:48:52+08:00 ] 127.0.0.1 /322/BBSDemo/home/user/getUidSession[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000741s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000913s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001232s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T15:49:39+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000102s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000850s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000816s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001134s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 0,5   [ RunTime:0.0005s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T15:49:39+08:00 ] 127.0.0.1 /322/BBSDemo/home/user/getUidSession[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000103s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000775s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000524s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001166s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T15:49:39+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/countArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000544s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000870s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001174s ][m
+[32m+[m[32mSQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.0003s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T15:49:51+08:00 ] 127.0.0.1 /322/BBSDemo/home/user/getUidSession[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000136s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000866s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000549s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.000885s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T15:49:51+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/countArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000547s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001184s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001722s ][m
+[32m+[m[32mSQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.0004s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T15:49:51+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000097s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000588s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000922s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001691s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 0,5   [ RunTime:0.0004s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T15:50:08+08:00 ] 127.0.0.1 /322/BBSDemo/home/user/getUidSession[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000098s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000693s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000774s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001217s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T15:50:08+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000506s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000534s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001028s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 0,5   [ RunTime:0.0006s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T15:50:08+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/countArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000144s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000728s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000493s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.000963s ][m
+[32m+[m[32mSQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.0003s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T15:50:20+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000775s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000537s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.000885s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 0,5   [ RunTime:0.0007s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T15:50:20+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/countArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000525s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000653s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001093s ][m
+[32m+[m[32mSQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.0003s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T15:50:20+08:00 ] 127.0.0.1 /322/BBSDemo/home/user/getUidSession[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000097s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000722s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000623s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001099s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T15:50:28+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000525s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000710s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001154s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 0,5   [ RunTime:0.0005s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T15:50:28+08:00 ] 127.0.0.1 /322/BBSDemo/home/user/getUidSession[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000650s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000590s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.000992s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T15:50:28+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/countArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000144s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000811s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000486s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.000791s ][m
+[32m+[m[32mSQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.0003s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T15:50:31+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000144s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000787s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000917s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001467s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 0,5   [ RunTime:0.0006s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T15:50:31+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/countArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000632s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001162s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001641s ][m
+[32m+[m[32mSQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.0003s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T15:50:31+08:00 ] 127.0.0.1 /322/BBSDemo/home/user/getUidSession[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000797s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001031s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001653s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T15:50:37+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000099s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000606s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.000741s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 0,5   [ RunTime:0.0051s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T15:50:37+08:00 ] 127.0.0.1 /322/BBSDemo/home/user/getUidSession[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000623s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000668s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001064s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T15:50:37+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/countArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000535s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.000744s ][m
+[32m+[m[32mSQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.0031s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T15:51:01+08:00 ] 127.0.0.1 /322/BBSDemo/home/user/getUidSession[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000782s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001096s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001690s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T15:51:01+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000106s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000622s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000950s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001419s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 0,5   [ RunTime:0.0004s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T15:51:01+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/countArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000484s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001109s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001441s ][m
+[32m+[m[32mSQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.0003s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T15:51:36+08:00 ] 127.0.0.1 /322/BBSDemo/home/user/getUidSession[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000107s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000962s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000718s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001061s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T15:51:36+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000811s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000805s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001295s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 0,5   [ RunTime:0.0004s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T15:51:36+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/countArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000132s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000671s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000847s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001296s ][m
+[32m+[m[32mSQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.0003s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T15:52:56+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000145s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000996s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001059s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001683s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 0,5   [ RunTime:0.0004s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T15:52:56+08:00 ] 127.0.0.1 /322/BBSDemo/home/user/getUidSession[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000130s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000698s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001047s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001519s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T15:52:56+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/countArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000140s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000886s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.000739s ][m
+[32m+[m[32mSQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.0003s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T15:54:45+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000717s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000549s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.000932s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 0,5   [ RunTime:0.0003s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T15:54:45+08:00 ] 127.0.0.1 /322/BBSDemo/home/user/getUidSession[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000585s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000735s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001012s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T15:54:45+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/countArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000146s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000715s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000754s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001048s ][m
+[32m+[m[32mSQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.0002s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T15:55:02+08:00 ] 127.0.0.1 /322/BBSDemo/home/user/getUidSession[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000793s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000867s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001264s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T15:55:02+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000771s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.000796s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 0,5   [ RunTime:0.0004s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T15:55:02+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/countArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000456s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000761s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001079s ][m
+[32m+[m[32mSQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.0003s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T15:56:59+08:00 ] 127.0.0.1 /322/BBSDemo/home/user/getUidSession[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000138s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.001160s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000583s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.000939s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T15:56:59+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000139s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000619s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000692s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.000969s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 0,5   [ RunTime:0.0004s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T15:56:59+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/countArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000518s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000789s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001125s ][m
+[32m+[m[32mSQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.0002s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T15:57:53+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000104s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.001858s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001381s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001763s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 0,5   [ RunTime:0.0005s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T15:57:53+08:00 ] 127.0.0.1 /322/BBSDemo/home/user/getUidSession[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.001881s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001373s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001756s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T15:57:53+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/countArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000461s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000737s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001019s ][m
+[32m+[m[32mSQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.0003s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T15:58:10+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000097s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000540s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001288s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001736s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 0,5   [ RunTime:0.0003s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T15:58:10+08:00 ] 127.0.0.1 /322/BBSDemo/home/user/getUidSession[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000629s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001308s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001839s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T15:58:10+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/countArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000510s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001231s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001762s ][m
+[32m+[m[32mSQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.0003s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T15:58:15+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000131s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000710s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001065s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001394s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 0,5   [ RunTime:0.0004s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T15:58:15+08:00 ] 127.0.0.1 /322/BBSDemo/home/user/getUidSession[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000675s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001024s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001349s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T15:58:15+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/countArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000104s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000826s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000997s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001369s ][m
+[32m+[m[32mSQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.0003s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T15:58:51+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000750s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000543s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.000888s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 0,5   [ RunTime:0.0003s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T15:58:51+08:00 ] 127.0.0.1 /322/BBSDemo/home/user/getUidSession[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000163s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000901s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000535s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.000896s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T15:58:51+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/countArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000709s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.000782s ][m
+[32m+[m[32mSQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.0002s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T15:58:55+08:00 ] 127.0.0.1 /322/BBSDemo/home/user/getUidSession[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000138s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.001031s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000573s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.000909s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T15:58:55+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000128s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000842s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000680s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001176s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 0,5   [ RunTime:0.0005s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T15:58:55+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/countArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000160s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000902s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000650s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001030s ][m
+[32m+[m[32mSQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.0003s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T16:00:04+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000543s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000749s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001045s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 0,5   [ RunTime:0.0004s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T16:00:04+08:00 ] 127.0.0.1 /322/BBSDemo/home/user/getUidSession[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000106s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000809s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000954s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001345s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T16:00:04+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/countArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000506s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000745s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001046s ][m
+[32m+[m[32mSQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.0003s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T16:00:35+08:00 ] 127.0.0.1 /322/BBSDemo/home/user/getUidSession[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000100s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000730s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000901s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001477s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T16:00:35+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000122s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000634s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000987s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001719s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 0,5   [ RunTime:0.0004s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T16:00:35+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/countArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000131s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000753s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000669s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001171s ][m
+[32m+[m[32mSQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.0003s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T16:02:53+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/countArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000546s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000930s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001283s ][m
+[32m+[m[32mSQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.0008s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T16:02:53+08:00 ] 127.0.0.1 /322/BBSDemo/home/user/getUidSession[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000100s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000913s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000938s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001329s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T16:02:53+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000149s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000765s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000770s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001050s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 0,5   [ RunTime:0.0004s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T16:02:56+08:00 ] 127.0.0.1 /322/BBSDemo/home/user/getUidSession[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000109s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.001247s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000588s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.000946s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T16:02:56+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/countArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000588s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.000771s ][m
+[32m+[m[32mSQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.0003s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T16:02:56+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000127s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.001311s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000628s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001113s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 0,5   [ RunTime:0.0006s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T16:03:49+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000101s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000828s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000531s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.000874s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 0,5   [ RunTime:0.0004s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T16:03:49+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/countArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000144s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000797s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.000728s ][m
+[32m+[m[32mSQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.0003s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T16:03:49+08:00 ] 127.0.0.1 /322/BBSDemo/home/user/getUidSession[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000558s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000613s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001072s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T16:06:08+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000831s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000850s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001154s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 0,5   [ RunTime:0.0004s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T16:06:08+08:00 ] 127.0.0.1 /322/BBSDemo/home/user/getUidSession[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000500s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000800s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001084s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T16:06:08+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/countArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000797s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000873s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001247s ][m
+[32m+[m[32mSQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.0004s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T16:06:12+08:00 ] 127.0.0.1 /322/BBSDemo/home/user/getUidSession[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000097s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000671s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000885s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001428s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T16:06:12+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000109s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000573s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000569s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001022s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 0,5   [ RunTime:0.0004s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T16:06:12+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/countArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000140s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000790s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000827s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001540s ][m
+[32m+[m[32mSQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.0002s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T16:06:37+08:00 ] 127.0.0.1 /322/BBSDemo/home/user/getUidSession[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000644s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000526s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.000877s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T16:06:37+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/countArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000171s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000848s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.000738s ][m
+[32m+[m[32mSQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.0003s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T16:06:37+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000102s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000535s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000486s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.000868s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 0,5   [ RunTime:0.0004s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T16:06:43+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000731s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001755s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.002086s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 0,5   [ RunTime:0.0005s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T16:06:43+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/countArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000685s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001794s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.002147s ][m
+[32m+[m[32mSQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.0003s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T16:06:44+08:00 ] 127.0.0.1 /322/BBSDemo/home/user/getUidSession[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000159s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000966s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001606s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001895s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T16:09:04+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000503s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000853s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001204s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 0,5   [ RunTime:0.0005s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T16:09:04+08:00 ] 127.0.0.1 /322/BBSDemo/home/user/getUidSession[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000139s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.001150s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000973s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001365s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T16:09:04+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/countArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000155s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000808s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000730s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001019s ][m
+[32m+[m[32mSQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.0002s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T16:09:15+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000701s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000794s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001134s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 0,5   [ RunTime:0.0009s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T16:09:15+08:00 ] 127.0.0.1 /322/BBSDemo/home/user/getUidSession[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000097s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.001427s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000756s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001062s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T16:09:15+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/countArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.001413s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000845s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001198s ][m
+[32m+[m[32mSQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.0003s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T16:09:37+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000106s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000718s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.000739s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 0,5   [ RunTime:0.0006s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T16:09:37+08:00 ] 127.0.0.1 /322/BBSDemo/home/user/getUidSession[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000708s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000567s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.000999s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T16:09:37+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/countArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000696s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000605s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001035s ][m
+[32m+[m[32mSQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.0003s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T16:09:55+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000129s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000888s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000901s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001245s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 0,5   [ RunTime:0.0004s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T16:09:55+08:00 ] 127.0.0.1 /322/BBSDemo/home/user/getUidSession[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000699s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001159s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001526s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T16:09:55+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/countArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000585s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001283s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001689s ][m
+[32m+[m[32mSQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.0002s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T16:10:54+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000130s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000959s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000511s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.000828s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 0,5   [ RunTime:0.0004s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T16:10:54+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/countArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000193s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.001152s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.000743s ][m
+[32m+[m[32mSQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.0004s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T16:10:54+08:00 ] 127.0.0.1 /322/BBSDemo/home/user/getUidSession[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000192s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.001013s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.000727s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T16:10:59+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000526s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000517s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.000837s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 5,5   [ RunTime:0.0004s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T16:14:22+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/countArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.001124s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001707s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.002001s ][m
+[32m+[m[32mSQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.0008s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T16:14:22+08:00 ] 127.0.0.1 /322/BBSDemo/home/user/getUidSession[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000729s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001924s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.002243s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T16:14:22+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.001079s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002002s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.002387s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 0,5   [ RunTime:0.0005s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T16:16:37+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000172s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.001483s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001545s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001895s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 0,5   [ RunTime:0.0009s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T16:16:37+08:00 ] 127.0.0.1 /322/BBSDemo/home/user/getUidSession[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000169s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000922s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001620s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001952s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T16:16:37+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/countArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000197s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000981s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001608s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001947s ][m
+[32m+[m[32mSQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.0003s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T16:16:48+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000711s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000560s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.000912s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 0,5   [ RunTime:0.0004s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T16:16:48+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/countArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000104s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000673s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000597s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.000947s ][m
+[32m+[m[32mSQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.0003s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T16:16:48+08:00 ] 127.0.0.1 /322/BBSDemo/home/user/getUidSession[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000158s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000921s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000633s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001024s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T16:17:54+08:00 ] 127.0.0.1 /322/BBSDemo/home/user/getUidSession[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000763s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001155s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001583s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T16:17:54+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/countArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000762s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001270s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001837s ][m
+[32m+[m[32mSQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.0004s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T16:17:54+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000757s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001100s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001649s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 0,5   [ RunTime:0.0004s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T16:18:30+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000469s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000751s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001179s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 0,5   [ RunTime:0.0004s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T16:18:30+08:00 ] 127.0.0.1 /322/BBSDemo/home/user/getUidSession[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000620s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000707s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001220s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T16:18:30+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/countArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000588s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000497s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.000896s ][m
+[32m+[m[32mSQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.0003s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T16:21:57+08:00 ] 127.0.0.1 /322/BBSDemo/home/user/getUidSession[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000098s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000673s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001348s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001676s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T16:21:57+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/countArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000739s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001336s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001654s ][m
+[32m+[m[32mSQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.0005s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T16:21:57+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000859s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001297s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001679s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 0,5   [ RunTime:0.0004s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T16:25:15+08:00 ] 127.0.0.1 /322/BBSDemo/home/user/getUidSession[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000845s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002125s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.002865s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T16:25:15+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/countArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000101s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000853s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002101s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.002872s ][m
+[32m+[m[32mSQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.0003s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T16:25:15+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000101s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000889s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001975s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.002704s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 0,5   [ RunTime:0.0004s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T16:25:47+08:00 ] 127.0.0.1 /322/BBSDemo/home/user/getUidSession[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000317s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.001339s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000625s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.000988s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T16:25:47+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000133s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000845s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000621s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001041s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 0,5   [ RunTime:0.0005s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T16:25:47+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/countArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000159s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.003544s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000469s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.000765s ][m
+[32m+[m[32mSQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.0003s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T21:37:02+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/countArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000846s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002679s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.003097s ][m
+[32m+[m[32mSQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.0041s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T21:37:02+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000786s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002489s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.002985s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 0,5   [ RunTime:0.0013s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T21:37:02+08:00 ] 127.0.0.1 /322/BBSDemo/home/user/getUidSession[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000643s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002578s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.003003s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T21:37:50+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/countArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000191s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000932s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000676s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.000971s ][m
+[32m+[m[32mSQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.0011s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T21:37:50+08:00 ] 127.0.0.1 /322/BBSDemo/home/user/getUidSession[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000124s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000945s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001157s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001458s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T21:37:50+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000133s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000818s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000876s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001181s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 0,5   [ RunTime:0.0006s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T21:38:08+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000510s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000577s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001055s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 0,5   [ RunTime:0.0006s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T21:38:08+08:00 ] 127.0.0.1 /322/BBSDemo/home/user/getUidSession[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000623s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000514s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001068s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T21:38:08+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/countArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000185s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.001016s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000440s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.000723s ][m
+[32m+[m[32mSQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.0004s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T21:38:42+08:00 ] 127.0.0.1 /322/BBSDemo/home/user/getUidSession[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000631s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000587s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.000922s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T21:38:42+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000602s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000458s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.000768s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 0,5   [ RunTime:0.0006s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T21:38:42+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/countArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000114s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000714s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000502s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.000816s ][m
+[32m+[m[32mSQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.0004s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T21:41:44+08:00 ] 127.0.0.1 /322/BBSDemo/home/user/getUidSession[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000761s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002362s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.002758s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T21:41:44+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/countArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000558s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002179s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.002503s ][m
+[32m+[m[32mSQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.0004s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T21:41:44+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000553s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002263s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.002680s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 0,5   [ RunTime:0.0005s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T21:42:51+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000766s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000898s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001295s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 0,5   [ RunTime:0.0007s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T21:42:51+08:00 ] 127.0.0.1 /322/BBSDemo/home/user/getUidSession[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000115s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000879s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000936s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001350s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T21:42:51+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/countArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000752s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000959s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001404s ][m
+[32m+[m[32mSQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.0005s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T21:43:03+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000835s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000762s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001236s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 0,5   [ RunTime:0.0005s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T21:43:03+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/countArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000888s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000778s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001301s ][m
+[32m+[m[32mSQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.0003s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T21:43:03+08:00 ] 127.0.0.1 /322/BBSDemo/home/user/getUidSession[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000825s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000872s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001332s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T21:46:19+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000761s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001889s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.002477s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 0,5   [ RunTime:0.0006s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T21:46:19+08:00 ] 127.0.0.1 /322/BBSDemo/home/user/getUidSession[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000782s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001679s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.002410s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T21:46:19+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/countArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000746s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001616s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.002276s ][m
+[32m+[m[32mSQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.0004s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T21:48:45+08:00 ] 127.0.0.1 /322/BBSDemo/home/user/getUidSession[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000102s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000755s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001542s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001937s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T21:48:45+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000507s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001648s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.002083s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 0,5   [ RunTime:0.0007s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T21:48:45+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/countArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000098s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000760s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001684s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.002074s ][m
+[32m+[m[32mSQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.0003s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T21:49:09+08:00 ] 127.0.0.1 /322/BBSDemo/home/user/getUidSession[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000107s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000887s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001679s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001974s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T21:49:09+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/countArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000103s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000893s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001849s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.002175s ][m
+[32m+[m[32mSQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.0003s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T21:49:09+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000940s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001536s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001918s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 0,5   [ RunTime:0.0004s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T21:49:17+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000673s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000723s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001036s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 0,5   [ RunTime:0.0005s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T21:49:17+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/countArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000670s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000757s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001084s ][m
+[32m+[m[32mSQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.0004s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T21:49:17+08:00 ] 127.0.0.1 /322/BBSDemo/home/user/getUidSession[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000716s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000773s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001112s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T21:50:58+08:00 ] 127.0.0.1 /322/BBSDemo/home/user/getUidSession[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000523s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000878s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001179s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T21:50:58+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000783s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000880s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001177s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 0,5   [ RunTime:0.0005s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T21:50:58+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/countArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000742s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000962s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001337s ][m
+[32m+[m[32mSQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.0004s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T21:51:03+08:00 ] 127.0.0.1 /322/BBSDemo/home/user/getUidSession[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000487s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001035s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001355s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T21:51:03+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000570s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000913s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001229s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 0,5   [ RunTime:0.0005s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T21:51:03+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/countArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000630s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001030s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001431s ][m
+[32m+[m[32mSQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.0003s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T22:05:19+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/countArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000126s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000808s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001023s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001391s ][m
+[32m+[m[32mSQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.0003s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T22:05:19+08:00 ] 127.0.0.1 /322/BBSDemo/home/user/getUidSession[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.001084s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000990s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001387s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T22:05:19+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000133s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.001141s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000939s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001311s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 0,5   [ RunTime:0.0005s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T22:05:49+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000099s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000714s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000737s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001108s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 0,5   [ RunTime:0.0004s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T22:05:49+08:00 ] 127.0.0.1 /322/BBSDemo/home/user/getUidSession[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000704s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000787s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001233s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T22:05:49+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/countArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000099s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000775s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000795s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001225s ][m
+[32m+[m[32mSQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.0003s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T22:06:29+08:00 ] 127.0.0.1 /322/BBSDemo/home/user/getUidSession[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000105s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000847s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000905s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001309s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T22:06:29+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/countArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000842s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000912s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001271s ][m
+[32m+[m[32mSQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.0003s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T22:06:29+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000817s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000871s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001276s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 0,5   [ RunTime:0.0004s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T22:07:45+08:00 ] 127.0.0.1 /322/BBSDemo/home/user/getUidSession[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000772s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001414s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001965s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T22:07:45+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000502s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000766s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001156s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 0,5   [ RunTime:0.0004s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T22:07:45+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/countArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000119s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000602s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000863s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001232s ][m
+[32m+[m[32mSQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.0003s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T22:18:28+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000215s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.001324s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001862s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.002185s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 0,5   [ RunTime:0.0005s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T22:18:28+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/countArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000164s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.001635s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001723s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.002115s ][m
+[32m+[m[32mSQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.0003s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T22:18:28+08:00 ] 127.0.0.1 /322/BBSDemo/home/user/getUidSession[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000483s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.001984s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001856s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.002152s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T22:18:34+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000505s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000696s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001024s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 0,5   [ RunTime:0.0004s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T22:18:34+08:00 ] 127.0.0.1 /322/BBSDemo/home/user/getUidSession[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000682s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000729s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001073s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T22:18:34+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/countArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000501s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000785s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001104s ][m
+[32m+[m[32mSQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.0003s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T22:22:22+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000098s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000801s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001017s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001545s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 0,5   [ RunTime:0.0004s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T22:22:22+08:00 ] 127.0.0.1 /322/BBSDemo/home/user/getUidSession[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000773s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001164s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001739s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T22:22:22+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/countArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000097s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000827s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001197s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001814s ][m
+[32m+[m[32mSQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.0003s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T22:38:49+08:00 ] 127.0.0.1 /322/BBSDemo/home/user/getUidSession[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000128s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.001007s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001041s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001406s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T22:38:49+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000158s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.001022s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000995s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001301s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 0,5   [ RunTime:0.0005s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T22:38:49+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/countArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000154s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000687s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001015s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001392s ][m
+[32m+[m[32mSQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.0003s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T22:40:20+08:00 ] 127.0.0.1 /322/BBSDemo/home/user/getUidSession[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000699s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000776s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001105s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T22:40:20+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/countArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000133s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000760s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000509s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.000802s ][m
+[32m+[m[32mSQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.0003s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T22:40:20+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000113s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000818s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.000910s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 0,5   [ RunTime:0.0005s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T22:40:26+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000132s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000942s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000728s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001189s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 5,5   [ RunTime:0.0005s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T22:40:29+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000102s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000725s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000514s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.000856s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 10,5   [ RunTime:0.0005s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T22:40:31+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000495s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.000712s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 15,5   [ RunTime:0.0005s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T22:40:32+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000601s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000737s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001251s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 20,5   [ RunTime:0.0015s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T22:40:34+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000548s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.000744s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 25,5   [ RunTime:0.0004s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T22:40:34+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000475s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000382s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.000698s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 30,5   [ RunTime:0.0005s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T22:40:35+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000628s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000458s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.000765s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 35,5   [ RunTime:0.0004s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T22:41:57+08:00 ] 127.0.0.1 /322/BBSDemo/home/user/getUidSession[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000821s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000831s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001167s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T22:41:57+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/countArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000197s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000692s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000864s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001159s ][m
+[32m+[m[32mSQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.0004s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T22:41:57+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000128s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000750s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000833s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001136s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 0,5   [ RunTime:0.0004s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T22:42:29+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/countArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000875s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001193s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001513s ][m
+[32m+[m[32mSQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.0005s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T22:42:29+08:00 ] 127.0.0.1 /322/BBSDemo/home/user/getUidSession[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000529s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001399s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001717s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T22:42:29+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000131s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.001187s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001204s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001494s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 0,5   [ RunTime:0.0004s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T22:42:43+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/countArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000647s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000790s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001144s ][m
+[32m+[m[32mSQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.0005s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T22:42:43+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000126s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000647s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000792s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001157s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 0,5   [ RunTime:0.0004s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T22:42:43+08:00 ] 127.0.0.1 /322/BBSDemo/home/user/getUidSession[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000571s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000750s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001129s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T22:42:46+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000649s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000505s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.000887s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 5,5   [ RunTime:0.0007s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T22:42:53+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000578s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001024s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001655s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 5,5   [ RunTime:0.0005s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T22:42:57+08:00 ] 127.0.0.1 /322/BBSDemo/home/user/getUidSession[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000177s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.001044s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000624s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.000976s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T22:42:57+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000127s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000737s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000561s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001075s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 0,5   [ RunTime:0.0003s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T22:42:57+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/countArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000111s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000668s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.000701s ][m
+[32m+[m[32mSQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.0003s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T22:42:59+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000513s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000383s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.000700s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 5,5   [ RunTime:0.0005s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T22:43:04+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000585s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.000797s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 10,5   [ RunTime:0.0005s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T22:43:05+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000527s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.000750s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 0,5   [ RunTime:0.0004s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T22:43:07+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000577s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000558s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.000950s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 0,5   [ RunTime:0.0004s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T22:43:08+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000493s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.000704s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 5,5   [ RunTime:0.0005s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T22:43:09+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000566s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.000749s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 10,5   [ RunTime:0.0005s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T22:43:10+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000657s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000481s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.000823s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 0,5   [ RunTime:0.0004s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T22:43:12+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000145s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000703s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.000790s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 10,5   [ RunTime:0.0004s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T22:43:13+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000662s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000563s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.000896s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 0,5   [ RunTime:0.0005s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T22:43:57+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/countArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000580s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000923s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001332s ][m
+[32m+[m[32mSQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.0003s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T22:43:58+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000098s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000573s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000948s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001373s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 0,5   [ RunTime:0.0004s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T22:43:58+08:00 ] 127.0.0.1 /322/BBSDemo/home/user/getUidSession[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000099s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000677s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001011s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001457s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T22:44:42+08:00 ] 127.0.0.1 /322/BBSDemo/home/user/getUidSession[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.001147s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001297s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001868s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T22:44:42+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000751s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000728s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001072s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 0,5   [ RunTime:0.0004s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T22:44:42+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/countArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000457s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000775s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001051s ][m
+[32m+[m[32mSQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.0003s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T22:44:58+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/countArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000135s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000905s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000756s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001159s ][m
+[32m+[m[32mSQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.0003s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T22:44:58+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000106s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000909s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000631s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001029s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 0,5   [ RunTime:0.0004s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T22:44:58+08:00 ] 127.0.0.1 /322/BBSDemo/home/user/getUidSession[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000162s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000813s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000728s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001216s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T22:45:21+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000118s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.001005s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000789s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001164s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 0,5   [ RunTime:0.0004s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T22:45:21+08:00 ] 127.0.0.1 /322/BBSDemo/home/user/getUidSession[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000152s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.001264s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000842s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001315s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T22:45:21+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/countArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000492s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000447s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.000737s ][m
+[32m+[m[32mSQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.0003s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T22:45:22+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000238s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.001232s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000609s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001074s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 5,5   [ RunTime:0.0004s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T23:04:37+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/countArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000102s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000897s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000913s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001298s ][m
+[32m+[m[32mSQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.0004s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T23:04:37+08:00 ] 127.0.0.1 /322/BBSDemo/home/user/getUidSession[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000787s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001122s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001471s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T23:04:38+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000805s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000982s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001286s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 0,5   [ RunTime:0.0005s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T23:05:10+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/countArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000503s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001128s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001608s ][m
+[32m+[m[32mSQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.0003s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T23:05:10+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000577s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000823s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001229s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 0,5   [ RunTime:0.0004s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T23:05:10+08:00 ] 127.0.0.1 /322/BBSDemo/home/user/getUidSession[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000134s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000960s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000961s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001402s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T23:06:23+08:00 ] 127.0.0.1 /322/BBSDemo/home/user/getUidSession[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000134s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.001026s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000809s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001226s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T23:06:23+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000492s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.000761s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 0,5   [ RunTime:0.0004s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T23:06:23+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/countArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000489s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000497s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.000758s ][m
+[32m+[m[32mSQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.0003s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T23:06:47+08:00 ] 127.0.0.1 /322/BBSDemo/home/user/getUidSession[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000861s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001795s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.002262s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T23:06:47+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000883s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001595s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.002053s ][m
+[32m+[m[32mNOTIC: [8] Undefined index: limit C:\wamp64\www\322\ThinkPHP\Library\Think\Db\Driver.class.php 第 961 行.[m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 0,20   [ RunTime:0.0005s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T23:06:47+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/countArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000890s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001656s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.002100s ][m
+[32m+[m[32mSQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.0003s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T23:07:00+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000170s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.001119s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000490s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.000821s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 0,5   [ RunTime:0.0004s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T23:07:00+08:00 ] 127.0.0.1 /322/BBSDemo/home/user/getUidSession[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000133s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000787s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000492s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.000788s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T23:07:00+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/countArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000137s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000791s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000611s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001039s ][m
+[32m+[m[32mSQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.0003s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T23:08:16+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000651s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000663s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001085s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 0,5   [ RunTime:0.0004s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T23:08:16+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/countArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000629s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000748s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001167s ][m
+[32m+[m[32mSQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.0003s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T23:08:16+08:00 ] 127.0.0.1 /322/BBSDemo/home/user/getUidSession[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000629s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000902s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001317s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T23:08:59+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/countArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000139s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.001149s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000964s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001299s ][m
+[32m+[m[32mSQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.0003s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T23:08:59+08:00 ] 127.0.0.1 /322/BBSDemo/home/user/getUidSession[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000913s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000932s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001256s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T23:08:59+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000873s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000943s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001300s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 0,5   [ RunTime:0.0004s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T23:09:22+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000200s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.001489s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000487s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.000814s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 0,5   [ RunTime:0.0004s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T23:09:22+08:00 ] 127.0.0.1 /322/BBSDemo/home/user/getUidSession[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000101s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.001230s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000618s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.000973s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T23:09:22+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/countArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000165s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000984s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.000837s ][m
+[32m+[m[32mSQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.0003s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T23:21:02+08:00 ] 127.0.0.1 /322/BBSDemo/home/user/getUidSession[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000916s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001315s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001684s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T23:21:02+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/countArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000929s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001298s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001630s ][m
+[32m+[m[32mSQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.0004s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T23:21:02+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000141s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000972s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001305s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001622s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 0,5   [ RunTime:0.0004s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T23:21:42+08:00 ] 127.0.0.1 /322/BBSDemo/home/user/getUidSession[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000144s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.001276s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000597s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.000990s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T23:21:42+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000137s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000875s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000646s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001204s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 0,5   [ RunTime:0.0004s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T23:21:42+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/countArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000602s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000575s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.000915s ][m
+[32m+[m[32mSQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.0003s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T23:22:50+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000098s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000628s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000878s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001514s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 0,5   [ RunTime:0.0004s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T23:22:50+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/countArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000146s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000729s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000857s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001435s ][m
+[32m+[m[32mSQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.0003s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T23:22:50+08:00 ] 127.0.0.1 /322/BBSDemo/home/user/getUidSession[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000123s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000717s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000852s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001364s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T23:22:58+08:00 ] 127.0.0.1 /322/BBSDemo/home/user/getUidSession[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000767s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001706s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.002179s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T23:22:58+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000098s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000728s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001666s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.002181s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 0,5   [ RunTime:0.0004s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T23:22:58+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/countArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000718s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001616s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.002163s ][m
+[32m+[m[32mSQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.0004s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T23:23:02+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/allArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000099s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000836s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000597s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.000905s ][m
+[32m+[m[32mSQL: SELECT * FROM think_article a INNER JOIN think_user u where u.user_id=a.author_id  LIMIT 0,5   [ RunTime:0.0004s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T23:23:02+08:00 ] 127.0.0.1 /322/BBSDemo/home/user/getUidSession[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000105s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000792s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000727s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001056s ][m
+[32m+[m
+[32m+[m[32m[ 2018-12-19T23:23:02+08:00 ] 127.0.0.1 /322/bbsdemo/home/article/countArticle[m
+[32m+[m[32mINFO: [ app_init ] --START--[m
+[32m+[m[32mINFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000184s ][m
+[32m+[m[32mINFO: [ app_init ] --END-- [ RunTime:0.000953s ][m
+[32m+[m[32mINFO: [ app_begin ] --START--[m
+[32m+[m[32mINFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000718s ][m
+[32m+[m[32mINFO: [ app_begin ] --END-- [ RunTime:0.001013s ][m
+[32m+[m[32mSQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.0004s ][m
+[32m+[m
