@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8192edca-7768-476c-8fa8-739e63547de9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BBSDemo/Application/Home/Controller/ArticleController.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/BBSDemo/Application/Home/Controller/ArticleController.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BBSDemo/Application/Runtime/Logs/Home/18_12_21.log" beforeDir="false" afterPath="$PROJECT_DIR$/BBSDemo/Application/Runtime/Logs/Home/18_12_21.log" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,7 +30,7 @@
           <entry key="HTML" value="43" />
           <entry key="Image" value="5" />
           <entry key="JavaScript" value="3" />
-          <entry key="PHP" value="67" />
+          <entry key="PHP" value="70" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="SourceMap" value="2" />
           <entry key="htaccess" value="3" />
@@ -39,7 +39,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="1567" />
-          <entry key="PHP" value="3355" />
+          <entry key="PHP" value="3443" />
           <entry key="htaccess" value="129" />
         </counts>
       </usages-collector>
@@ -55,8 +55,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BBSDemo/Application/Home/Controller/ArticleController.class.php">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="26" column="68" selection-start-line="26" selection-start-column="68" selection-end-line="26" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BBSDemo/Application/Home/Controller/UserController.class.php">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="273">
-              <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+              <caret line="59" column="10" lean-forward="true" selection-start-line="55" selection-start-column="6" selection-end-line="59" selection-end-column="10" />
+              <folding>
+                <element signature="e#117#141#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -377,12 +389,12 @@
       <updated>1544926638322</updated>
       <workItem from="1544926639740" duration="4340000" />
       <workItem from="1545267170647" duration="10618000" />
-      <workItem from="1545362041137" duration="2027000" />
+      <workItem from="1545362041137" duration="3908000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46622000" />
+    <option name="totallyTimeSpent" value="48503000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1029" y="0" width="1451" height="1047" extended-state="0" />
@@ -561,13 +573,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BBSDemo/Application/Home/Controller/IndexController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="30" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BBSDemo/Application/Home/View/user/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -667,13 +672,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BBSDemo/Application/Home/Controller/PostController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BBSDemo/Application/Home/Model/ArticleModel.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
@@ -681,17 +679,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/BBSDemo/Application/Home/Controller/IndexController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="30" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BBSDemo/Application/Home/Controller/PostController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/BBSDemo/Application/Home/Controller/UserController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="25" />
+        <state relative-caret-position="273">
+          <caret line="59" column="10" lean-forward="true" selection-start-line="55" selection-start-column="6" selection-end-line="59" selection-end-column="10" />
+          <folding>
+            <element signature="e#117#141#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BBSDemo/Application/Home/Controller/ArticleController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+        <state relative-caret-position="399">
+          <caret line="26" column="68" selection-start-line="26" selection-start-column="68" selection-end-line="26" selection-end-column="68" />
         </state>
       </provider>
     </entry>

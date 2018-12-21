@@ -14,6 +14,20 @@ use Think\Model;
 
 class ArticleController extends UtilController
 {
+    public function updateArticle()
+    {
+        $article = M("Article"); // 实例化User对象
+        $data = array(
+            //param
+            'article_title' => I('post.article_title'),
+            'article_content' => I('post.article_content'),
+        );
+        $id = I('post.article_id');
+        $article->create();
+        $result = $article->where('article_id = ' . $id)->save($data); // 写入数据
+        $this->jsonOut($result);
+    }
+
     public function deleteArticle()
     {
         $article = D("Article"); // 实例化User对象
