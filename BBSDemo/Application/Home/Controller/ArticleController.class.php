@@ -42,6 +42,7 @@ class ArticleController extends UtilController
         $page = I('post.page');
         $rows = I('post.rows');
         $article = M('Article');
+        //$data = $article->alias('a')->order('a.article_create_time desc')->join('INNER JOIN think_user u where u.user_id=a.author_id')->limit(($page - 1) * $rows . ',' . $rows)->select();
         $data = $article->alias('a')->order('a.article_create_time desc')->join('INNER JOIN think_user u where u.user_id=a.author_id')->page($page, $rows)->select();
         //$this->ajaxReturn($data);
         $this->jsonOut($data);
