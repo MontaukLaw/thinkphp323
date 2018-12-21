@@ -14,12 +14,21 @@ use Think\Model;
 
 class ArticleController extends UtilController
 {
+    public function deleteArticle()
+    {
+        $article = D("Article"); // 实例化User对象
+        //$this->ajaxReturn($article);
+        $id = I('post.article_id');
+        $data = $article->where('article_id = ' . $id)->delete(); //
+        $this->jsonOut($data);
+    }
+
     public function allArticle()
     {
         $page = I('post.page');
         $rows = I('post.rows');
         $article = M('Article');
-        $data = $article->alias('a')->join('INNER JOIN think_user u where u.user_id=a.author_id')->page($page, $rows)->select();
+        $data = $article->alias('a')->order('a.article_create_time desc')->join('INNER JOIN think_user u where u.user_id=a.author_id')->page($page, $rows)->select();
         //$this->ajaxReturn($data);
         $this->jsonOut($data);
     }
@@ -32,15 +41,16 @@ class ArticleController extends UtilController
 
     }
 
-    public function adArticle()
+    public function addArticle()
     {
         $article = D("Article"); // 实例化User对象
         //$this->ajaxReturn($article);
         $article->create(); // 生成数据对象
-        $article->add(); // 写入数据
+        $data = $article->add(); // 写入数据
+        $this->jsonOut($article->find($data));
     }
 
-    public function addArticle()
+    public function adArticle()
     {
         $article = D("Article"); // 实例化User对象
         //$this->ajaxReturn($article);
